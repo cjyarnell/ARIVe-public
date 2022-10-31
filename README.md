@@ -10,3 +10,5 @@ Happy to field any questions or provide assistance where I can. This is provided
 
 Christopher Yarnell
 christopher.yarnell@uhn.ca
+
+https://zenodo.org/badge/559950810.svg
