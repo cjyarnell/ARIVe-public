@@ -1,0 +1,77 @@
+-- o2 flow and fio2 ARIVe eICU table
+
+with
+o2flowfio2 as (
+  select
+  patientunitstayid,
+  respchartoffset as charttime,
+case  when respchartvaluelabel in ('FiO2',
+                        'FIO2 (%)',
+                        'O2 Percentage') 
+        then 'fio2'
+      when respchartvaluelabel in ('LPM O2',
+                                  'Oxygen Flow Rate')
+      then "o2_flow"
+      else null end as variable, 
+case when respchartvaluelabel in ('FiO2',
+                        'FIO2 (%)',
+                        'O2 Percentage')
+        and respchartvalue not in ('-','.')
+        then respchartvalue
+      when respchartvaluelabel in ('LPM O2',
+                                  'Oxygen Flow Rate')
+--        and respchartvalue LIKE '^[-]?[0-9]+[.]?[0-9]*$' 
+          and respchartvalue not in ('-','.')
+        then respchartvalue
+        else NULL
+        end as value,
+"rc" as datasource
+from physionet-data.eicu_crd.respiratorycharting
+where 
+respchartvaluelabel IN ('FiO2',
+                        'FIO2 (%)',
+                        'O2 Percentage',
+                        'LPM O2',
+                        'Oxygen Flow Rate')
+
+union distinct
+
+select
+patientunitstayid,
+nursingchartoffset as charttime,
+case  when nursingchartcelltypevallabel in ('O2 L/%') 
+        and nursingchartvalue not in ('-','.')
+        and cast(nursingchartvalue as numeric) <= 15
+        then "o2_flow"
+      when  nursingchartcelltypevallabel in ('O2 L/%') 
+        and nursingchartvalue not in ('-','.')
+        and cast(nursingchartvalue as numeric) >= 21
+        then "fio2"
+      else null end as variable,
+case  when nursingchartcelltypevallabel in ('O2 L/%') 
+        and nursingchartvalue not in ('-','.')
+        then nursingchartvalue
+        else null end as value,
+"nc" as datasource
+from physionet-data.eicu_crd.nursecharting
+where nursingchartcelltypevallabel in ('O2 L/%')
+)
+
+select
+patientunitstayid,
+charttime,
+"fio2" as variable,
+case when variable = "o2_flow" and value < 21 then value*3 + 21
+     when variable = "fio2" then value
+     end as value,
+case when variable = "o2_flow" then "calculated"
+     when variable = "fio2" then "recorded"
+     end as fio2_method
+from ( 
+select
+patientunitstayid,
+charttime,
+variable,
+cast(regexp_extract(value, r'[0-9]+\.*[0-9]*') as numeric) as value
+from o2flowfio2)
+order by 1,2,3

@@ -1,0 +1,388 @@
+-- This query extracts the timevarying data for 48h prior to and 96h following eligibility --
+-- Results are saved in ARIVe_Timevarying
+
+with pdx as (
+  select *
+  from `alpine-scholar-292916.ARIVe.ARIVe_MIMIC_Eligibility`
+  where eligible = 1
+)
+
+select 
+  pdx.stay_id
+, time
+, variable
+, max(value) as value -- the work of breathing variables have multiple ways to be counted, so aggregate to abnormal
+from(
+select
+    pdx.stay_id
+  , datetime_diff(ce.charttime, intime, minute) - eligibility_time as time
+  , case when ce.itemid in (220210,224690) and valuenum > 0 and valuenum < 70 then "resp_rate"
+         when ce.itemid in (220277) and valuenum > 0 and valuenum <= 100 then "spo2" 
+         when ce.itemid in (220045) and valuenum > 0 and valuenum < 300 then "heart_rate"
+         when ce.itemid in (229322, 223990, 229323) then "wob"
+         when ce.itemid in (223900) then "GCS_verbal"
+         when ce.itemid in (223901) then "GCS_motor"
+         when ce.itemid in (220739) then "GCS_eyes"
+end as variable
+
+  , case when ce.itemid in (220210,224690) and valuenum > 0 and valuenum < 70 then valuenum -- rr
+         when ce.itemid in (220277) and valuenum > 0 and valuenum <= 100 then valuenum  -- spo2
+         when ce.itemid in (220045) and valuenum > 0 and valuenum < 300 then valuenum  -- hr
+         when ce.itemid in (229322) and ce.value IN (
+           'Agonal', 'Discoordinate', 'Gasping efforts',
+           'Prolonged exhalation', 'Shallow', 'Irregular',
+           'Nasal flaring', 'Cheyne-Stokes', 
+           'Accessory muscle use/retractions', 'Frequent desaturation episodes',
+           'Inability to speak in full sentences', 'Active exhalation') then 1
+         when ce.itemid in (229322) and ce.value IN ('Regular') then 0
+         when ce.itemid in (223990) and ce.value IN ('Dyspneic','Agonal', 'Labored', 'Shallow', 'Apneic') then 1
+         when ce.itemid in (223990) and ce.value IN ('Normal') then 0
+         when ce.itemid in (229323) and ce.value IN ('Moderate - 4', 'Moderate - 5', 'Moderate - 6', 'Moderate - 7', 'Severe - 8', 'Severe - 9', 'Severe - 10') then 1
+         when ce.itemid in (229323) and ce.value IN ('None - 0', 'Mild - 1', 'Mild - 2', 'Mild - 3') then 0
+         when ce.itemid in (223900) then valuenum
+         when ce.itemid in (223901) then valuenum
+         when ce.itemid in (220739) then valuenum
+    end as value
+
+from pdx
+left join (
+  select * from `physionet-data.mimic_icu.chartevents` ce
+  where ce.itemid IN (
+    220210,224690 -- Respiratory rate
+  , 220045 -- heart rate
+  , 220277 -- spo2
+  , 229322, 223990, 229323 -- work of breathing
+  , 223901 -- GCS motor
+  , 223900 -- GCS verbal
+  , 220739 -- GCS eye
+  )) ce
+on pdx.stay_id = ce.stay_id
+where datetime_diff(ce.charttime, intime, minute) > -48*60 
+   and datetime_diff(ce.charttime, intime, minute) - eligibility_time <= 28*24*60
+
+UNION ALL
+
+select 
+    pdx.stay_id
+  , datetime_diff(deathtime, pdx.intime, minute) - eligibility_time as time
+  , "death" as variable
+  , 1 as value
+from pdx
+left join `physionet-data.mimic_core.admissions` adm
+on pdx.hadm_id = adm.hadm_id
+where datetime_diff(deathtime, pdx.intime, minute) - eligibility_time <= 28*24*60
+
+UNION ALL
+
+select 
+    pdx.stay_id
+  , datetime_diff(outtime, pdx.intime, minute) - eligibility_time as time
+  , "icu_dc" as variable
+  , 1 as value
+from pdx
+left join `physionet-data.mimic_icu.icustays` icu
+on pdx.stay_id = icu.stay_id
+where datetime_diff(outtime, pdx.intime, minute) - eligibility_time <= 28*24*60
+
+UNION ALL 
+
+select 
+    pdx.stay_id
+  , datetime_diff(o.charttime, intime, minute) - eligibility_time as time
+  , case when o.fio2 is not null then "fio2" end as variable
+  , o.fio2 as value
+from pdx 
+left join (select * from `alpine-scholar-292916.PAHRC1.O2DeliverySatFio2`
+          where fio2 is not null) o
+on pdx.stay_id = o.stay_id
+where datetime_diff(o.charttime, intime, minute) > -48*60 
+   and datetime_diff(o.charttime, intime, minute) - eligibility_time <= 28*24*60
+
+
+UNION ALL 
+
+select 
+    pdx.stay_id
+  , datetime_diff(o.charttime, intime, minute) - eligibility_time as time
+  , case when o.o2_device is not null then "o2_device" end as variable
+  , o.o2_device as value
+from pdx 
+left join (select * from `alpine-scholar-292916.PAHRC1.O2DeliverySatFio2`
+          where o2_device is not null) o 
+on pdx.stay_id = o.stay_id
+where datetime_diff(o.charttime, intime, minute) > -48*60 
+   and datetime_diff(o.charttime, intime, minute) - eligibility_time <= 28*24*60
+
+UNION ALL 
+
+select 
+    pdx.stay_id
+  , datetime_diff(pr.charttime, intime, minute) - eligibility_time as time
+  , "pressor" as variable
+  , case when ne_on_off = 1 or vp_on_off = 1 or dp_on_off = 1 or ph_on_off = 1 or ep_on_off = 1 then 1
+    else 0 end as value
+from pdx
+LEFT JOIN (select 
+  stay_id
+, charttime 
+-- use the cases to account for the times when the start / stop times are entered in error, eg stop time after start time for next dose
+-- these are rare (13/~2500 pressor dose changes in this cohort)
+, case when sum(ne_on_off) over (partition by stay_id order by charttime range unbounded preceding) >= 1 then 1 
+       when sum(ne_on_off) over (partition by stay_id order by charttime range unbounded preceding) <= 0 then 0
+       end as ne_on_off
+, case when sum(vp_on_off) over (partition by stay_id order by charttime range unbounded preceding) >= 1 then 1 
+       when sum(vp_on_off) over (partition by stay_id order by charttime range unbounded preceding) <= 0 then 0
+       end as vp_on_off
+, case when sum(dp_on_off) over (partition by stay_id order by charttime range unbounded preceding) >= 1 then 1 
+       when sum(dp_on_off) over (partition by stay_id order by charttime range unbounded preceding) <= 0 then 0
+       end as dp_on_off
+, case when sum(ph_on_off) over (partition by stay_id order by charttime range unbounded preceding) >= 1 then 1 
+       when sum(ph_on_off) over (partition by stay_id order by charttime range unbounded preceding) <= 0 then 0
+       end as ph_on_off
+, case when sum(ep_on_off) over (partition by stay_id order by charttime range unbounded preceding) >= 1 then 1 
+       when sum(ep_on_off) over (partition by stay_id order by charttime range unbounded preceding) <= 0 then 0
+       end as ep_on_off
+from
+(select
+    stay_id
+  , charttime 
+  , max(ne_on) - max(ne_off) as ne_on_off
+  , max(vp_on) - max(vp_off) as vp_on_off
+  , max(dp_on) - max(dp_off) as dp_on_off
+  , max(ph_on) - max(ph_off) as ph_on_off
+  , max(ep_on) - max(ep_off) as ep_on_off
+from(select 
+     pdx.stay_id
+   , ne1.starttime as charttime
+   , case when ne1.starttime is not null then 1 else 0 end as ne_on
+   , 0 as ne_off
+   , null as vp_on
+   , null as vp_off
+   , null as dp_on
+   , null as dp_off
+   , null as ph_on
+   , null as ph_off
+   , null as ep_on
+   , null as ep_off
+  from pdx
+   left join `physionet-data.mimic_derived.norepinephrine` ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.starttime, intime, minute) > -48*60 
+   and datetime_diff(ne1.starttime, intime, minute) - eligibility_time <= 28*24*60
+
+
+  union all 
+
+select 
+     pdx.stay_id
+   , ne1.endtime as charttime
+   , 0 as ne_on
+   , case when ne1.endtime is not null then 1 else 0 end as ne_off
+   , null as vp_on
+   , null as vp_off
+   , null as dp_on
+   , null as dp_off
+   , null as ph_on
+   , null as ph_off
+   , null as ep_on
+   , null as ep_off
+   from pdx
+   left join `physionet-data.mimic_derived.norepinephrine` ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.endtime, intime, minute) > -48*60 
+   and datetime_diff(ne1.endtime, intime, minute) - eligibility_time <= 28*24*60
+
+union all 
+
+select 
+     pdx.stay_id
+   , starttime as charttime
+   , null as ne_on
+   , null as ne_off
+   , case when starttime is not null then 1 else 0 end as vp_on
+   , 0 as vp_off
+   , null as dp_on
+   , null as dp_off
+   , null as ph_on
+   , null as ph_off
+   , null as ep_on
+   , null as ep_off
+  from pdx
+   left join      `physionet-data.mimic_derived.vasopressin`  ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.starttime, intime, minute) > -48*60 
+   and datetime_diff(ne1.starttime, intime, minute) - eligibility_time <= 28*24*60
+
+
+  union all 
+
+select 
+     pdx.stay_id
+   , endtime as charttime
+   , null as ne_on
+   , null as ne_off
+   , 0 as vp_on
+   , case when endtime is not null then 1 else 0 end as vp_off
+   , null as dp_on
+   , null as dp_off
+   , null as ph_on
+   , null as ph_off
+   , null as ep_on
+   , null as ep_off
+    from pdx
+   left join `physionet-data.mimic_derived.vasopressin`  ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.endtime, intime, minute) > -48*60 
+   and datetime_diff(ne1.endtime, intime, minute) - eligibility_time <= 28*24*60
+
+
+    
+
+union all 
+
+select 
+     pdx.stay_id
+   , starttime as charttime
+   , null as ne_on
+   , null as ne_off
+   , null as vp_on
+   , null as vp_off
+   , case when starttime is not null then 1 else 0 end as dp_on
+   , 0 as dp_off
+   , null as ph_on
+   , null as ph_off
+   , null as ep_on
+   , null as ep_off
+     from pdx
+   left join      `physionet-data.mimic_derived.dopamine` ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.starttime, intime, minute) > -48*60 
+   and datetime_diff(ne1.starttime, intime, minute) - eligibility_time <= 28*24*60
+
+
+
+
+  union all 
+
+select 
+     pdx.stay_id
+   , endtime as charttime
+   , null as ne_on
+   , null as ne_off
+   , null as vp_on
+   , null as vp_off
+   , 0 as dp_on
+   , case when endtime is not null then 1 else 0 end as dp_off
+   , null as ph_on
+   , null as ph_off
+   , null as ep_on
+   , null as ep_off
+    from pdx
+   left join      `physionet-data.mimic_derived.dopamine`   ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.endtime, intime, minute) > -48*60 
+   and datetime_diff(ne1.endtime, intime, minute) - eligibility_time <= 28*24*60
+ 
+
+
+union all 
+
+select 
+     pdx.stay_id
+   , starttime as charttime
+   , null as ne_on
+   , null ne_off
+   , null as vp_on
+   , null as vp_off
+   , null as dp_on
+   , null as dp_off
+   , case when starttime is not null then 1 else 0 end as ph_on
+   , 0 as ph_off
+   , null as ep_on
+   , null as ep_off
+  from pdx
+   left join           `physionet-data.mimic_derived.phenylephrine` ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.starttime, intime, minute) > -48*60 
+   and datetime_diff(ne1.starttime, intime, minute) - eligibility_time <= 28*24*60
+
+
+  union all 
+
+select 
+     pdx.stay_id
+   , endtime as charttime
+   , null as ne_on
+   , null ne_off
+   , null as vp_on
+   , null as vp_off
+   , null as dp_on
+   , null as dp_off
+   , 0 as ph_on
+   , case when endtime is not null then 1 else 0 end as ph_off
+   , null as ep_on
+   , null as ep_off
+   from pdx
+   left join           `physionet-data.mimic_derived.phenylephrine`   ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.endtime, intime, minute) > -48*60 
+   and datetime_diff(ne1.endtime, intime, minute) - eligibility_time <= 28*24*60
+ 
+
+union all 
+
+select 
+     pdx.stay_id
+   , starttime as charttime
+   , null as ne_on
+   , null ne_off
+   , null as vp_on
+   , null as vp_off
+   , null as dp_on
+   , null as dp_off
+   , null as ph_on
+   , null as ph_off
+   , case when starttime is not null then 1 else 0 end as ep_on
+   , 0 as ep_off
+   from pdx
+   left join        `physionet-data.mimic_derived.epinephrine` ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.starttime, intime, minute) > -48*60 
+   and datetime_diff(ne1.starttime, intime, minute) - eligibility_time <= 28*24*60
+
+
+
+  union all 
+
+select 
+     pdx.stay_id
+   , endtime as charttime
+   , null as ne_on
+   , null ne_off
+   , null as vp_on
+   , null as vp_off
+   , null as dp_on
+   , null as dp_off
+   , null as ph_on
+   , null as ph_off
+   , 0 as ep_on
+   , case when endtime is not null then 1 else 0 end as ep_off
+      from pdx
+   left join               `physionet-data.mimic_derived.epinephrine`    ne1
+   on pdx.stay_id = ne1.stay_id
+   where datetime_diff(ne1.endtime, intime, minute) > -48*60 
+   and datetime_diff(ne1.endtime, intime, minute) - eligibility_time<= 28*24*60
+
+)
+group by 1,2
+)) pr
+ON pdx.stay_id = pr.stay_id
+where datetime_diff(pr.charttime, intime, minute) > -48*60 
+   and datetime_diff(pr.charttime, intime, minute) - eligibility_time <= 28*24*60
+
+) 
+tmp left join pdx on pdx.stay_id = tmp.stay_id
+where variable is not null and value is not null
+and (pdx.imv = 0 or tmp.time <= pdx.imv_time)
+group by 1,2,3
+order by 1,2

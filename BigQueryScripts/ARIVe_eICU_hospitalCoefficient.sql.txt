@@ -1,0 +1,9 @@
+# calculate hospital-level coefficients for diversity
+
+  SELECT  
+  hospitalid,
+  avg(case when ethnicity in ("African American","Hispanic","Asian", "Native American") then 1 else 0 end) as prop_nonwhite
+  FROM `physionet-data.eicu_crd.patient`
+  where ethnicity in ("Caucasian","African American","Hispanic","Asian", "Native American")
+  group by 1
+  order by 2

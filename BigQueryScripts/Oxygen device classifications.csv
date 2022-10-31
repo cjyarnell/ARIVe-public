@@ -1,0 +1,2887 @@
+value,State,patientunitstayid
+ventilator,6,460647
+nasal cannula,1,406314
+None (Room air),0,149074
+Nasal cannula,1,148972
+Ventilator,6,122126
+RA,1,108604
+BiPAP/CPAP,5,46408
+trach collar,7,34741
+High flow nasal cannula,4,34476
+room air,0,21929
+venturi mask,2,20899
+NC,1,17128
+Room air,0,16241
+ra,0,15802
+Bi-PAP,5,15761
+vent,6,13114
+nc,1,10791
+non-rebreather,3,10510
+Oral Endotracheal,6,9614
+Trach mask/collar,7,9559
+cool aerosol mask,2,9412
+Mechanical ventilator,6,8779
+CPAP,5,8601
+Room Air,0,7788
+BiPAP,5,7196
+VENT,6,6686
+In Place,NA,6621
+other,NA,6553
+Teeth,NA,5619
+Heated high flow nasal cannula,4,5076
+HFNC,4,4739
+oxymizer,2,4191
+ROOM AIR,0,3186
+Non-rebreather mask,3,3136
+oximizer,2,2807
+high flow,4,2512
+oxymask,2,2291
+Face mask,2,2240
+R/A,0,2158
+S/T,NA,1949
+Other (Comment),NA,1854
+Gum,NA,1835
+Tracheostomy,7,1834
+room air ,0,1690
+face tent,2,1677
+vented,6,1669
+Oxymizer,2,1581
+Lip,NA,1443
+r/a,0,1416
+NIV,5,1380
+Vent,6,1143
+Aerosol mask,2,1096
+NCH,,1054
+TC,,944
+Simple mask,2,939
+nasal canula,1,859
+HHFNC,4,847
+High flow mask,2,843
+bipap,5,815
+BIPAP,5,814
+VM,2,798
+Venturi mask,2,769
+ETT,6,750
+Oximizer,2,721
+NCHH,NA,683
+misty ox,2,590
+High Flow,4,555
+HiFlow,4,535
+Hi Flow,4,512
+cpap,5,487
+niv,5,487
+roomair,0,477
+Applied,NA,449
+hfnc,4,439
+Trach collar,7,433
+2L,NA,433
+hi-flow,4,427
+Oxymask,2,422
+tc,,382
+T-Piece,6,382
+simple mask,2,372
+TM,7,368
+nch,,352
+oximask,2,335
+RA ,0,330
+ROOM AIR ,0,322
+N/C,1,311
+trach tent,7,307
+CAM,,292
+ventilator/CPAP,6,291
+Hiflow,4,289
+hi flow,4,289
+Ambubag,6,282
+HF,4,278
+hiflow,4,277
+trach mask,7,275
+T-piece,6,266
+Vapotherm,NA,264
+Room Air ,0,256
+NC ,1,255
+face mask,2,253
+100,,246
+mask,2,240
+Misty Ox,2,233
+oxy mask,2,233
+Bipap,5,230
+cam,,229
+NRB,3,227
+t-piece,6,225
+TP,6,224
+high flow NC,4,215
+hi flow nasal cannula,4,213
+High flow,4,212
+Face tent,2,210
+vm,2,209
+"vent:AC22,300,+5",6,205
+hhfnc,4,200
+3L,NA,197
+hi-flo,4,194
+98,NA,193
+BiPAP 12/5,5,191
+HIGH FLOW,4,188
+oximyzer,2,187
+nasal cannula (L/Min),1,185
+R/Air,0,182
+BiPAP 15/8,5,177
+BiPap,5,177
+trache collar,7,174
+nchh,,172
+oxymiser,2,171
+ventilator/cpap,6,169
+high-flow,4,166
+highflow,4,164
+Highflow,4,163
+Non-rebreather,3,162
+trach to vent,7,156
+7,,156
+MV,6,154
+2L NC,1,149
+HHF,4,145
+ventilator/ac-20,6,145
+high flow ,4,144
+optiflow,4,143
+HiFlo,4,142
+Trach Collar,7,141
+HI Flow,4,139
+ventilator/trach,6,139
+nasal cannula ,1,138
+venti mask,2,138
+High flow NC,4,135
+blender,,131
+OxyMask,2,131
+vapotherm,,129
+2LNC,1,127
+other-oximizer,2,121
+ac/vc 18/400/+5,6,120
+rm air,0,120
+VENT SIMV,6,119
+94,,118
+Ra,0,118
+other/oxymizer,2,117
+3,,116
+Hi-Flow,4,115
+OXIMIZER,2,114
+Decreased,,113
+97,,112
+rm air ,0,111
+ventilator-ac,6,111
+RM AIR,0,109
+BiPAP 10/5,5,106
+NIMV,5,106
+nc ,1,106
+tp,7,104
+optiflo,4,103
+other/oximizer,2,103
+Hi-flow,4,103
+ventilator/ac-30,6,102
+AC 18/320/35/+5,6,102
+4L,1,102
+cool aerosol trach mask,7,101
+trach/vent,7,101
+NRM,3,101
+Oxymiser,2,100
+HI FLOW,4,100
+venturi mask/NC,2,99
+ventilator ,6,99
+NCHF,4,98
+Oxy Mask,2,97
+.RA,0,96
+Hi flow,4,95
+high flow nasal cannula,4,95
+mask vent,2,95
+HIFLOW,4,91
+ HF nasal cannula,4,90
+r/air,0,88
+facemask,2,87
+tpiece,7,87
+partial non-rebreather,3,86
+High Flow NC,4,86
+FM,2,85
+"vent:AC16,450,+5",6,85
+ac 14 250 40+5,6,84
+CPAP 10,5,84
+AVAPS,,83
+none,,82
+ETT oral,6,81
+trach/CPAP,7,81
+2L NC 02,1,81
+trach to ventilator,7,79
+BiPAP/CPAP 12/5,5,79
+v,,78
+95,,77
+HIGH FLOW VAPORTHREM,,77
+Room air ,0,75
+BiPAP 15/5,5,75
+vent ,6,75
+oxymizer ,2,74
+AC 16/400/50%/+5,6,73
+oximeizer,2,73
+"ventilator, A/C",6,72
+Increased,,71
+nasal cannula/ Optimizer,1,71
+21%,,71
+"AC14, 450, 35%, +5",6,69
+Trach collar/hiflow,7,69
+R.A.,0,69
+Removed,,69
+NRBM,3,68
+NCHHF,4,68
+Face Mask,2,68
+other/vapotherm,,66
+HI FLow,4,66
+AC16/TV350/+5peep/,6,65
+non-rebreather mask,3,65
+misty ox ,2,65
+nasal canuula,1,65
+ambu bag,6,65
+/CPAP,5,65
+Oximyzer,2,65
+96,,64
+V,,64
+BiPAP15/8,,64
+OXYMIZER,,63
+Hiflow ,,63
+Oximizer ,,63
+MASK VENT,,63
+Blender,,63
+"vent: AC 28, 500, +10",,61
+hiflo,,61
+Oximiser,,61
+Nasal Cannula,,61
+40L Hi flow,,60
+"ventilator AC 22, TV450, PEEP 5, 40% oxygen",,60
+vent/cpap,6,59
+HF 40L,4,59
+99,,59
+T- piece,6,58
+other/ room air,0,57
+other/oximyzer,2,57
+room  air,0,57
+ventilator CPAP,6,57
+nasal cannula/high flow,1,56
+HF 20L,4,56
+"Hi Flow, 20L",4,55
+nasal cannula capnography,1,55
+40,,55
+BiPAP10/5,5,53
+oximizier,2,53
+vm +5L NC,2,53
+21,,53
+humidified air,,53
+"venturi mask, NC",2,53
+V-CPAP,5,52
+Facemask,2,52
+HI-FLO,4,52
+nrb,3,52
+ventilator/ac-26,6,52
+Hi Flow 30L,4,51
+Hi Flo NC,4,51
+trach,7,50
+oxymizier,2,50
+Nasal Canula,1,50
+high flow 30L,4,50
+.ra,0,49
+Roomair,0,49
+venturi mask+NC,2,49
+BiPAP 14/6,5,49
+Cpap,5,49
+nasal cannula/oxymizer,2,49
+T piece,7,49
+oximizer pendant,2,49
+"vent:AC22,600,+5",6,48
+"vent:AC/VC34,430,+10",6,48
+high-flow NC,4,48
+misti ox,2,48
+Misty ox,2,47
+2l,1,47
+other/hi flow,4,47
+SIMPLE MASK,2,47
+"vent +10, 400, 14",6,47
+nasal cann,61,47
+HF N/C,4,47
+oximizer ,2,47
+T Piece,6,47
+Oxymiser 5liters/46%,2,46
+Optiflow,4,46
+ventilator/ECMO,6,46
+Oxyimizer,2,46
+NASAL CANNULA,1,46
+VENTI MASK,2,45
+BiPAP12/5,5,44
+other high flow,4,44
+"nasal cannula, HI FLOW",4,44
+VRD vent,6,44
+"nasal cannula, oxymizer",2,44
+oxy-mask,2,44
+nasal cannula/vm,2,44
+oxymeiser,2,44
+simple mask ,2,43
+Simple Mask,2,43
+Hiflo,4,43
+opti flow,4,43
+T piece ,6,43
+Hi flo,4,43
+Hi Flo,4,43
+ventilator/ac-24,6,42
+R/a,0,42
+AC 14 400 50% +5,6,42
+High-Flow,4,42
+HHF nasal,4,42
+ventilator #8@23cm,6,42
+Mask,2,42
+Bipap 14/8,5,42
+venti,2,41
+OXYMASK,2,41
+Trach Colar,7,41
+vent/pressure support,6,41
+ ,,41
+Venturi,2,41
+TRACH COLLAR,7,41
+aero,2,40
+oximizer nc,2,40
+ventilator/AC,6,40
+"AC-16,450,50%+ 5",,39
+BiPAP 14/7,,39
+room,,39
+tm,,39
+nas,,39
+BiPAP 12/8,,39
+SIMV,,39
+nasal  cannula,,39
+venturi mask+5L NC,,39
+2,,39
+AC16/350/50/5,,39
+oximask ,,38
+AC/vent,,38
+Hi Flow NC,,38
+hi flow ,,37
+Bipap 12/5,,37
+ventilator/ac,,37
+AC 20 400-45-10,,37
+BiPAP 12/6,,37
+blender mask,,37
+HUMIDIFIED AIR,,37
+VM 50%,,36
+High-flow,,36
+ventilator cpap,,36
+room Air,,36
+AC 12 400 35% + 5,,36
+Vent/CPAP,,35
+AC 12 400 40% +5,,35
+partial rebreather,,35
+other-high flow,,35
+BiPAP/CPAP 15/8,,35
+AC 15/320/35/+8,,35
+HFC,,35
+ Oxymask,,35
+trach vent,,34
+40%,,34
+Left naris,,34
+High-flow NC,,34
+BiPAP/CPAP 10,,34
+BiPAP 20/5,,34
+VENT ,,34
+high flow 40%/30L,,33
+AC15/400/40%/PEEP8,,32
+t piece,,32
+nasal,,32
+ventilator/ac-32,,32
+Simv 8/TV 350/+5peep/+14PS,,32
+BiPAP15/5,,32
+Tpiece,,32
+CPAP 10/5,,31
+HFNC 40L,,31
+simple face mask,,31
+"Vent +4, 310, 16",,31
+Oxy-mask,,31
+"vent:AC30,350,",,31
+VDR,,31
+Home CPAP,,31
+ambu,,31
+NC w/ oxymizer,,31
+ventilatorac/20/+5,,31
+ high flow,,31
+Nasal Cannula ,,30
+BiPAP/CPAP 12/6,,30
+5L,,30
+veni,,30
+ROOAM AIR,,30
+vnt,,30
+HFO2,,30
+HNC,,29
+HI FLO,,29
+oxi mask,,29
+ventilator/PS,,29
+AEROSAL MASK,,29
+4 L,,29
+BVM,,29
+HHHF,,28
+Hi Flo ,,28
+HHNC,,28
+ventilator/c-pap,,28
+BiPAP ,,28
+PS 5/5/40%,,28
+Hi Flow ,,28
+AC 12 450 50 5,,28
+"AC-16,450,70%+ 5",,28
+AC 10/400/40%/+5,,28
+BiPAP/CPAP  12/5,,28
+cpap/12,,28
+SFM 10L NC,,28
+AC 20 400-50-10,,28
+PS/CPAP,,28
+trach collar/COOL AEROS,,27
+CPAP/PS,,27
+oximiser,,27
+2lnc,,27
+Hi flow/TM,,27
+VAPOTHERM,,27
+high Flow,,27
+2 L,,27
+AC,,27
+highflow NC,,27
+BiPAP 14/5,,27
+BiPAP/CPAP 12/8,,27
+high flow nc,,27
+oxymask ,,26
+HiFlow NC,,26
+Bipap 10/5,,26
+BiPAP/CPAP 10/5,,26
+"vent:SIMV10,420PS15,+5",,26
+partial NRB,,26
+n/c,,26
+Oxy mask,,26
+ac 10/400/40+5,,26
+"BiPAP/CPAP, 20/7",,26
+hi flo,,26
+Blender Mask,,26
+Blow-by,,26
+Oximask,,26
+FACE MASK,,26
+trach/ventilator,,26
+Trache collar,,26
+SM,,26
+"vent:AC 16,370,+6",,26
+hifg flow,,26
+VENTI,,26
+HI-FLOW NASAL CANULA ,,25
+ventilatorac/30/380/+10,,25
+AC10 500 60 5,,25
+"Vent +8, 310, 15",,25
+ventilator AC 500/8/50/32,,25
+VENT/AC,,25
+HiFLOW,,25
+nasal cannula oximizer,,25
+high flow aerosol via TM,,25
+2 LPM NC,,25
+other/optimizer,,25
+HF 35L,,25
+other/high flow,,25
+92,,25
+A/C 14 480 50% + 10,,25
+Stoma,,24
+bipap 15/5,,24
+HFNC ,,24
+NRM & 5L,,24
+A/C 14 480 60% + 10,,24
+Bennett 840,,24
+NC w/oximiser,,24
+Hi-Flo NC,,24
+cont nebs,,24
+hiflo/nasal cannula,,24
+R.A,,24
+RoomAir,,24
+vapor,,24
+bipap 12/5,,24
+High Flow Cannula,,23
+ventilator/ac-10,,23
+NC & face tent,,23
+Oxyhood,,23
+"vent:AC30,350,+5",,23
+VM 40%,,23
+oxymzier,,23
+Trach Chollar ,,23
+"AC12, 280, 100%, +5",,23
+high flow n/c,,23
+HF 20L ,,23
+other (room air),,23
+oxyimiser,,23
+High flow 40 L/min,,23
+ac 14 400 40% +5,,23
+ventilator/ CPAP,,23
+ventilator/ac20/440/8,,23
+SIMV 8/350/PS14/40%/7,,22
+"other, oxymixer",,22
+AC18/450/35%/5,,22
+50,,22
+AC10 450 40% +5,,22
+AC22/400/50%/+5,,22
+CPAP/6,,22
+40%vm,,22
+t-mist,,22
+SFM,,22
+other/highflow,,22
+BIPAP 15/5,,22
+ra ,,22
+BiPAP 14/8,,22
+ventilator/ac-18,,22
+"AC16, 400, 70%, +5",,22
+tra,,21
+hihg flow,,21
+HI FLOW 15L,,21
+higflow,,21
+"ventilator,CPAP",,21
+HHFNC ,,21
+T-mist,,21
+oxyimizer,,21
+AC16 400 40% +5,,21
+ventilator/c-pap mode,,21
+"AC 16,450,50%+ 5",,21
+nasal cannula with capnography,,20
+SFM 10L ,,20
+simv 8,,20
+nasal cannula-oxymiser,,20
+AC15/355/40%/5,,20
+ventilator/ac/18,,20
+BiPap (10/5),,20
+BiPAP/CPAP  15/4,,20
+NIVV,,20
+Nasal cannula (NC),,20
+NONE,,20
+oxymiser 6 liters/52%,,20
+High Flow N/C,,20
+5L nc + 50% VM,,20
+AC12/400/40%/5,,20
+BiPAP/,,20
+High Flow ,,20
+hf,,20
+BIPAP ,,19
+High flow / 40 L,,19
+other/mask,,19
+HFlow,,19
+NCHH/NRBM,,19
+10,,19
+OXY MASK ,,19
+AC 16/400/+5,,19
+AC 16/TV 300/Pep+5/,,19
+HF NC,,19
+HHFC ,,19
+bipap ,,19
+CPAP with vent,,19
+cool aerosol,,19
+AC 16-350-40%+ 5,,19
+Hi Flow 50L,,19
+highflow vapotherm,,19
+CPAP 10/8,,19
+BI-PAP,,19
+BiPAP/CPAP 15/4,,19
+hi Flow,,19
+high flow 35L,,18
+Volume support,,18
+ventilator/bi level,,18
+HFNC 30L,,18
+NC & Venti Mask,,18
+oxyask,,18
+3 L NC,,18
+HFLOW,,18
+BiPAP/CPAP 50%,,18
+BiPaP,,18
+ RA,,18
+CPAP 12/5,,18
+"BiPAP/CPAP, 16/8",,18
+nrm,,18
+"AC12, 400, 40%, +5",,18
+hiflow 20l,,18
+BiPAP-12/6,,17
+Heliox,,17
+high flo,,17
+hi flow/nasal cannula,,17
+c-pap,,17
+Trach mask,,17
+Oxymask ,,17
+BIPAP 18/5/50%,,17
+ac 15 350 100 5,,17
+trach / vent,,17
+Hi FLow ,,17
+bipap 10/5,,17
+CPAP FROM HOME,,17
+HIgh-flow,,17
+Hi flow NC,,17
+ VapoTherm 25L  Nasal Canula,,17
+trach collar w/ T piece,,17
+TRACH,,17
+AC 15/340/50% +5,,17
+misty-ox,,17
+1L,,17
+Cool Aerosol Mask,,17
+CPAP (home CPAP),,17
+vapo 40 L/100%,,17
+"vent.:AC18,450,+8",,17
+ventilator/ac20,,17
+hi flow/40L,,17
+Hi-Flo,,17
+ventilator/ac-23,,17
+oxymzier 6 Liters,,16
+NC/oximizer,,16
+BiPAP/ 10/5,,16
+"Vent 18, +5, 440",,16
+ventilator/ac-14,,16
+Trach,,16
+BiPAP/CPAP 18/5/100,,16
+2 l,,16
+AC15/350/60%/8,,16
+4,,16
+r a,,16
+HFHNC,,16
+2 liters,,16
+HFLNC,,16
+R/A ,,16
+venturi mask/n/c,,16
+ac-22/tv-400/50%/+5,,16
+oxymizer pendant,,16
+NC w/oxymizer,,16
+high flow/nasal cannula,,16
+trach collar with T piece,,16
+BiPAP20/10,,16
+nim,,16
+SIMV8 350 40% PS14 + 7.5,,16
+oxymeizer,,16
+ventilator SIMV,,16
+T-PIECE,,16
+2l nc02,,16
+"AC-14, TV-350, Peep-+4, fio2-40%",,16
+BiPAP/13/5,,16
+"Vent AC, 14, +5, 420",,15
+HiFloNC,,15
+BiPAP 13/5,,15
+high flow 40L,,15
+HFNC 35L,,15
+ventilator- cpap,,15
+Tmist,,15
+High Flow 40L,,15
+non-rebreather/5L NC,,15
+ventilator/ac20/peep 10,,15
+CPAP/ PS 7/Peep +5,,15
+HIGH FLOW N/C,,15
+opti-flow,,15
+50 % 40L,,15
+nrbm,,15
+BiPAP/CPAP ,,15
+AERO,,15
+Humidified high flow,,15
+AC15/355/60%/8,,15
+AC15/355/100%/8,,15
+AC20/400/100%+5,,15
+NC/VM,,15
+AC20/350/80/10,,15
+oximyzer ,,15
+"BiPAP, 12/6",,15
+3 LPM NC,,15
+hi flow n/c,,15
+high flow 02-80%,,15
+other Hi Flo,,15
+BiPAP14/5,,15
+CPAP 12/5/40%,,15
+other/RA,,15
+6L,,15
+Rom Air,,15
+AC20/350/80/8,,15
+AVAP,,15
+Cool Aerosol T/C,,15
+BiPAP/10/5,,15
+.NC,,15
+"vent:AC24,360,+8",,15
+BiPAP/CPAP 18/12,,15
+AC-20,,15
+hi-flo/NRB,,15
+BiPAP 20/10,,14
+cpap ,,14
+BiPAP/CPAP 15/6,,14
+face-mask,,14
+5l nc 02,,14
+oxymmizer,,14
+ventilator- ac,,14
+AC 20/450/ 100 /18,,14
+nivm,,14
+ac 10 500 40 5,,14
+ett,,14
+OPTIFLOW,,14
+non-invasive vent,,14
+19,,14
+"Vent AC 14, 420, +5",,14
+vm ,,14
+NC+NRM,,14
+ventilator/ac-25,,14
+Misty-ox,,14
+BiPAP14/7,,14
+oscillator,,14
+ROMM AIR,,14
+BiPAP/CPAP 14/8,,14
+HF 35,,14
+BiPAP/15/5,,14
+AC 25 400 100 10,,14
+ventilator/ac-25/peep10,,14
+ventilator/Ac,,14
+Ac 14 480 80 14,,14
+other Vapotherm 95%,,14
+ventilator/ac-28,,13
+ac 14 250 50+5,,13
+"Ventilator +12, AC20 P16, 100% ",,13
+2L 02 NC,,13
+high flo NC,,13
+28%,,13
+High Flow 40 LPM,,13
+AC20 400 40% +5,,13
+HF 50%/50L/50% VM,,13
+"AC14, 410, 60%, 5",,13
+VENTILATOR,,13
+Hi FLOW  30 L,,13
+5l,,13
+PSV,,13
+oral  canula,,13
+other hi-flo,,13
+BiPAP 8/6,,13
+CAFM,,13
+Bipap ,,13
+MCHH,,13
+cpap 10/8 40%,,13
+PNRB,,13
+other hi flo,,13
+nhf,,13
+hiflow 40Liters,,13
+ventilator AC12/450/+5,,13
+"BIPAP, 15/5",,13
+"AC14, 500, 40%, +5",,13
+bagged,,13
+Venti,,13
+venturi mask+ 5l nc,,13
+50%,,13
+30,,13
+60% 20L,,13
+Hi-flow NC,,13
+BiPAP/12/5,,13
+ventilator/ac-16,,13
+cool aerosol/trach,,13
+CPAP 12,,13
+NC4L,,13
+BiPAP 16/6,,12
+"vent:AC14,430,+5",,12
+HighFlow,,12
+venti mask- humidified,,12
+8ltr Oximizer,,12
+"vent.:AC22,450,+8",,12
+"vent.:AC18,450,+5",,12
+BiPAP/12/6,,12
+CPAP (home  CPAP),,12
+ozymask,,12
+Rm Air,,12
+ventilator/ac-15,,12
+2 L N/C,,12
+ac10 500 50% +5,,12
+BiPAP/CPAP/12/5,,12
+AC 20 400 5510,,12
+Bipap 14/6,,12
+"AC-16,450,50%+PEEP 5",,12
+"vent:AC30,430,+8",,12
+"vent:ACVC26,490,+8",,12
+AC20/350/70/12,,12
+bipap 18/5,,12
+ROOMAIR,,12
+hi=flow,,12
+cpap 10/5 40%,,12
+nasal cannula (HIGH FLOW),,12
+BiPAP/CPAP  20/10,,12
+SIMV 8/350/PS14/60%/7,,12
+BiPAP ( 10/5 ),,12
+vap,,12
+None ( Room air),,12
+home CPAP,,12
+rA,,12
+CPAP @ HOME SETTINGS,,12
+Hi flow 30L,,12
+AC12/320/40%/+5,,12
+Misty-Ox Mask,,12
+oxy,,12
+CPAP 20,,12
+BiPAP/16/6,,12
+spont,,12
+CPAP/Vent,,11
+ventilator/PSV,,11
+BiPAP/CPAP 15,,11
+"vent.:AC18,450,+10",,11
+CPAP PS15/PEEP10,,11
+9,,11
+venti-mask ,,11
+ventilatorac24/540/80%/+10,,11
+VPAP,,11
+4LNC 02,,11
+Hiflow N/C,,11
+vent:,,11
+Bipap 18/5 ,,11
+bipap 20/8,,11
+trach collar ,,11
+Bipap 14/5,,11
+Bipap (12/5),,11
+4LNC,,11
+Vapotherm 35L,,11
+"ventilator PS10, 5 PEEP, 30% oxygen",,11
+"vent: AC10,400,+5",,11
+BiPAP 16/10 rate 14,,11
+25,,11
+BiPAP 15/7,,11
+2 ltr,,11
+trach collar/cool aerosol mask,,11
+HFO2 ,,11
+High Flow/30L/100%,,11
+50% vm,,11
+AC20/350/70/10,,11
+Misti ox,,11
+BiPAP18/10,,11
+hhfm,,11
+ventilator/simv16/450/ps18+5,,11
+CPAP 16/5,,11
+BiPAP 18/5,,11
+CPAP  15,,11
+AC 20 300 80 +15,,11
+oxymixer,,11
+BiPAP/12/8,,11
+BiPAP/CPAP12,,10
+60,,10
+HF  30L,,10
+CPAP 15,,10
+BiPAP/CP15/5,,10
+"ventilator, CPAP",,10
+CPAP via vent,,10
+"AC14, 410, 40%, +5",,10
+rom air,,10
+vent/PRVC,,10
+AC 20 400 60 10,,10
+Vpap,,10
+"Vent, 14, +10, 400",,10
+HI FLOW NC,,10
+cpap 10/5,,10
+AC 12/TV 400/+5 pee,,10
+BiPAP/CPAP 10/4,,10
+ac16/450/50%/+5,,10
+ambubag,,10
+nasal cannula+vm,,10
+high flow 60%/30L,,10
+cpap 40%   10/5,,10
+ VapoTherm 15L  Nasal Canula,,10
+BiPAP 18/8,,10
+BiPAP14/8,,10
+AC20/350/100/8,,10
+BIPAP 15/5 R16,,10
+BiPAP/CPAP15/5/50,,10
+BiPAP 10/16,,10
+HIFLO,,10
+cont. nebs,,10
+ambu-bag,,10
+"vent:AC25,350,+8",,10
+bagging,,10
+mistiox,,10
+"BiPAP/CPAP, 18/7",,10
+Hiflow 60%/ 40L,,10
+cpap 13,,10
+AC 14/450,,10
+CPAP: 10,,10
+trach collar with tpiece,,10
+BiPAP/CPAP-20/8,,10
+oxymizer pend.,,10
+Venti mask & nasal cannula ,,10
+hi-flow +100%NRB,,10
+other: blender,,10
+other/HFNC,,10
+BiPAP/CPAP 16/7,,10
+vent/simv,,10
+other oximizer,,10
+NASAL,,10
+BiP,,10
+BiPAP 20/8,,10
+PRB,,10
+hiflow ,,10
+High Flow Nasal Cannula,,10
+BiPAP16/5,,10
+AC 16/400/40%/+5,,10
+cpap 10,,9
+8l  Oximizer,,9
+H flow,,9
+"AC14, 350, 35%, +5",,9
+BiPAP/CPAP20/5,,9
+Bipap 15/5,,9
+v-pap,,9
+face tent/NC,,9
+HF ,,9
+highflow aerosol,,9
+    nc,,9
+simple face mask ,,9
+mask99,,9
+HI fLow,,9
+BIPAP 12/5/ 50%,,9
+HIGH FLOW NC,,9
+Heated High Flow,,9
+Nasal HF,,9
+8 CPAP,,9
+VM/HFNC,,9
+5L NC/50% Venti,,9
+MASKVENT,,9
+bipap10/5,,9
+oxyimiser ,,9
+NCHH ,,9
+Partial non-rebreather,,9
+mask/vent,,9
+HF 80% ,,9
+AC 16/300/60/+5,,9
+non rebreather,,9
+BiPAP15/5/,,9
+face mask ,,9
+Simple Face Mask,,9
+ac32/pc30/65%/+9,,9
+high flow 30%/30L,,9
+BiPAP(10/5),,9
+Hi-Flow Nasal Canula,,9
+non-rebreather ,,9
+"Cpap +5, PS - 12",,9
+BiPAP 13/8,,9
+30%,,9
+Face Tent,,9
+vent.ilator,,9
+BiPAP/CPAP-12/6,,9
+"trach collar, blender",,9
+nasal cannula/hiflow,,9
+nsal cannula,,9
+trach stoma,,9
+"AC12, 280, 50%, +5",,9
+ROOMA AIR,,9
+BiPAP/CPAP 5/10,,9
+12/500/50%/5,,9
+other/CAM,,9
+ventilatorAC,,9
+HI-Flo,,9
+other/ sm,,9
+40 % 35L,,9
+Highflow ,,9
+BiPAP  10/5,,9
+HF @ 20L,,9
+other-vapotherm,,9
+nasal cannula high flow,,9
+BiPAP-14/7,,9
+High Flow O2,,9
+9L HF,,9
+BiPAP/CPAP 15/9,,9
+oxymizer pendant n/c,,9
+CPAP home settings,,9
+nc oxymizer,,9
+Bipap (14/5),,9
+bipap12/5,,9
+vapo 30/95%,,8
+"vent:AC14,520,+5",,8
+high flow casal ,,8
+HIGH FLOW OXYGEN,,8
+cool aerosol T-PIECE,,8
+High flow ,,8
+N/C + 40% VM,,8
+other -oximask,,8
+Oximask ,,8
+NC + Oxymask,,8
+hi flow vapotherm,,8
+HHNF,,8
+ventilator/cpap pressure support 14,,8
+AC 16 500 70 5,,8
+face Mask,,8
+nasal cannula High Flow,,8
+PRM,,8
+BiPAP 16/8,,8
+ Nonrebreather,,8
+BiPAP 18/6,,8
+CPAP/12,,8
+hhf,,8
+home CPAP machine,,8
+optimizer,,8
+AC15/400/40%/5,,8
+Room AIr,,8
+ven...,,8
+BiPAP (10-5),,8
+CPAP (home),,8
+oximerzer,,8
+35,,8
+hi-flo 35L/,,8
+hhf/nrb,,8
+high flow80% @40 liters,,8
+NRB/5LNC,,8
+BiPAP (%),,8
+Bagging,,8
+6L oximizer,,8
+nimv,,8
+venturi mask/2lnc,,8
+Misty ox ,,8
+"Vent,  CPAP, +5, PS 10",,8
+2nc,,8
+High FLow,,8
+highflow nc,,8
+Resuscitation bag,,8
+venturi mask/nc,,8
+02 2l nc,,8
+venturi mask- ,,8
+CPAP from home,,8
+O2/Air Blender,,8
+2lit,,8
+HF  20L,,8
+4LO2NC,,8
+0,,8
+oxymeiser/4 liters,,8
+ventilator/ac14/+5,,8
+other- T-peice,,8
+High-Flow NC,,8
+93,,8
+cpap 10cm H2O,,8
+other: misty ox,,8
+oxyzimer,,8
+ventilatorac22/300/+5,,8
+ aerosol mask,,8
+TRACHE COLLAR,,8
+NA,,8
+"other, VAPOTHERM",,8
+hi nc ,,8
+venturi mask 50%,,8
+High Flow 35L,,8
+High Flow 30L,,8
+NC + NRB,,8
+4L NC,,8
+ventilator/bilevel,,8
+"vent:CPAP, +5, PS 10",,8
+mv,,8
+CPAP15,,8
+home cpap 5,,7
+BiPAP/CPAP 20/12,,7
+"ventilator simv 20+ps 15,fio2 45%, tv 500, peep 10",,7
+TPIECE,,7
+Trach Mask,,7
+         RA,,7
+oxymiser 5 liters/46%,,7
+CPAP 40% 12/5,,7
+CPAP 8/5,,7
+"AC12, 480, 40%, +5",,7
+18,,7
+non-rebreather/5L,,7
+prbm,,7
+high flow 30l,,7
+BIPAP 10/5,,7
+AC 25 400 100 8,,7
+CPAP/full Face Mask,,7
+High flow N/C,,7
+nonrebreather,,7
+40 % 40L,,7
+nc 5 L,,7
+ac 18 340 40% +5,,7
+Nc,,7
+Hi-flo,,7
+60%,,7
+Pressure Support,,7
+ventilator14/350/50%/+10,,7
+venturi mask/5L NC,,7
+venti-mask,,7
+venturi mask ,,7
+BIPAP 12/6,,7
+20,,7
+ nasal cannula,,7
+Ambu to ETT,,7
+HHFC 100%,,7
+5L HF,,7
+BiPAP/CPAP/NC,,7
+hfc,,7
+CPAP /12,,7
+BIPAP 15/10,,7
+BiPAP/CPAP/20/10,,7
+blender mask ,,7
+high flow 50%/30L,,7
+NRB mask,,7
+Hiflow 55%/ 40L,,7
+2lnc 02,,7
+ Nasal Cannula,,7
+CPAP ,,7
+Hiflow 40%/ 30L,,7
+CPAP mask,,7
+Oximixer,,7
+BiPAP/ 12/5,,7
+BiPAP/CPAP-12/5,,7
+AC16/450/100/5,,7
+other-oxymizer,,7
+Ventilator/CPAP,,7
+.HiFlow,,7
+"SIMV 8, PS 14, Peep7.5 , 40%",,7
+"AC16, 360, 30%, +5",,7
+BiPAP/CPAP 45%,,7
+High Flow 45LPM,,7
+BiPAPtrach,,7
+BiPAP/CPAP  19/4,,7
+partial re-breather,,7
+ Home Ventilator,,7
+BiPAP/CPAP 16/10,,7
+"vent:AC18,450,+5,",,7
+"AC16, 400, 50%, +5",,7
+AC 14 500 50 5,,7
+BiPAP  25/20,,7
+other/Face mask,,7
+bipap 16/8,,7
+pressure support 14,,7
+other oxymizer 6 liters,,7
+CPAP 15/4,,7
+"Vent CPAP +5,+10",,7
+BiPAP/CPAP/6,,7
+traceh collar,,7
+"CPAP 10/5, 40%",,7
+c/a,,7
+hi flow NC,,7
+4 l,,7
+highflow NC ,,7
+highflow 02 nc,,7
+Right naris,,7
+AC20 400 60% +5,,6
+2 L n/c,,6
+AC 12 450 60 5,,6
+other home v pap,,6
+CPAP / 5,,6
+oxymzier 6Liters,,6
+BiPAP 8/5,,6
+heliox,,6
+ room air,,6
+Partial mask,,6
+High Flow 45 LPM,,6
+CPAP (own from home),,6
+"AC12, 380, 50%, +8",,6
+BiPAP/CPAP 10/6,,6
+NC/scoop,,6
+other/oxymask,,6
+#NAME?,,6
+PC vent,,6
+"AC10, 400, 40%, +5",,6
+BiPap 10/5,,6
+PS-Auto,,6
+mask ,,6
+nasal cannula + OXYASK,,6
+ventilator/CPAP MODE,,6
+non-rebreather/ 5L,,6
+HHHF NC,,6
+hhhf,,6
+bv,,6
+cool aerosol mask  ,,6
+AC 25 400 80 10,,6
+bipap 14 8,,6
+VentiMask,,6
+other/face mask,,6
+ROOM  AIR,,6
+AC14/300/100%/5,,6
+50 %  40 L,,6
+NC/Venti Mask ,,6
+4 LPM NC,,6
+AC28/PC 20 80% +14,,6
+HiFlow ,,6
+CPAP 12/8,,6
+AC 10/300/40+5,,6
+CPAP5/5/40%,,6
+Trach to vent,,6
+other:  High flow,,6
+BiPAP (20-5),,6
+CPAP/14,,6
+CPAP 10 peep,,6
+Hi-Flo MIsty-Ox,,6
+HiFlow Nasal Canula,,6
+trach to T-Piece,,6
+AC20/450/+5,,6
+HFNC/NRB,,6
+"AC16, 350, 50%, +5",,6
+8,,6
+Bipap 16/8,,6
+hfn,,6
+Non-Rebreather,,6
+NIVM,,6
+BiPAP17/12,,6
+oxi-mask,,6
+high flow rate,,6
+heliox 60/40,,6
+High flow/TM,,6
+other/high flow aerosol via TM,,6
+BiPAP/CPAP 15/5,,6
+AC22/450/30%+5,,6
+other/Mask,,6
+Misty oxyimizer,,6
+CPAP  12/6,,6
+ras,,6
+other/misty ox,,6
+oxxymizer,,6
+BiPAP rate 18,,6
+misty O2,,6
+BiPAP/CPAP/14/8,,6
+a,,6
+blender+6liters nc,,6
+other-highflow,,6
+partialnonreb,,6
+PS 10/5/40%,,6
+high flow nasal cann.,,6
+sfm,,6
+.MV,,6
+Ventilator ,,6
+AC14TV400 40% +5,,6
+vapor therm,,6
+AC 16 350 60% +10,,6
+bipap 18/5 ,,6
+See mechanical ventilation,,6
+H/F,,6
+HF 30L ,,6
+   NIV,,6
+bag,,6
+CPAP8,,6
+BiPAP/CPAP/15/5,,6
+BIPAP 10/5+50%,,6
+3L NC 02,,6
+trache collar ,,6
+BiPAP (15-5),,6
+"vent: CPAP, PS+5, P+5",,6
+Patient refused,,6
+other/ambu 100%,,6
+"vent AC, +5, TV 400",,6
+ventilator/AC-18,,6
+bipap 10/8 50%,,6
+"AC14, 400, 40%, +5",,5
+Oxymizer 4L,,5
+ac 14 250 80 +5,,5
+BiPAP 20/15,,5
+50% VM+5L NC,,5
+vpap,,5
+nc 4,,5
+CMO,,5
+5l  Oximizer,,5
+32,,5
+oxymzier 5 Liters,,5
+BiPAP/CPAP/20/8,,5
+BiPAP 12/5 30%,,5
+OXY MASK,,5
+"vent: AC 28, 500, +12",,5
+t-collar,,5
+HIgh flow,,5
+"vent.:AC18,500,+5",,5
+other; RA,,5
+"AC14, 380, 50%, +5",,5
+HF 50%/50L/off,,5
+High Flow 40LPM,,5
+High Flow 35 LPM,,5
+High Flow 30LPM,,5
+NON INVASIVE,,5
+BiPAP 10/5 30%,,5
+ohi-flow,,5
+T mist,,5
+"AC14, 410, 50%, +5",,5
+"vent (AC 16, 400, +5)",,5
+hi flo NC,,5
+AC 20/450/ 100 /+18,,5
+VM/N/C,,5
+AC 22 300 100 18,,5
+Oxymizer ,,5
+vent AC 22/400/+6,,5
+hhfn,,5
+cpap 40 5 10,,5
+OXYMASK ,,5
+TPiece,,5
+NRM 100%,,5
+AC28/PC 20 90% +14,,5
+HFnasal cannula,,5
+RA / CPAP,,5
+CPAP 15/5,,5
+"AC14, 350, 50%, +7",,5
+BiPAP ( 15/5 ),,5
+BiPAP (10/5),,5
+other HiFlow,,5
+Trach/tpiece,,5
+Trach / tpiece,,5
+nasal BiPAP,,5
+HF nasal cannula,,5
+tpeice,,5
+BiPAP:15/7,,5
+"CPAP, +5, PS 8",,5
+BiPAP18/5,,5
+ext vent,,5
+HHFC,,5
+7L HF,,5
+BMV,,5
+NIM,,5
+6 L/min,,5
+Hi FLO,,5
+/CPAP of 12,,5
+3L NC,,5
+non-rebreather & N/C,,5
+Ambu,,5
+high flow  trach mask,,5
+misti-ox,,5
+BiPAP 16/7,,5
+"BiPAP/CPAP, 16/7",,5
+nasal cannula (L/min),,5
+CPAP 8,,5
+nasal cannula and venti mask,,5
+Hiflow nasal cannula,,5
+vent/CPAP,,5
+highflow nasal cannula,,5
+venimask,,5
+VM/5LNC,,5
+BiPAP/CPAP 12/7,,5
+BiPAP 19/10,,5
+5ln/c with 50% vm,,5
+High flow 40L/100%,,5
+ven,,5
+room  AIR,,5
+ac 12 450 60+5,,5
+"AC16, 350, 30%, +5",,5
+BiPAP10//5,,5
+ VapoTherm 30L  Nasal Canula,,5
+BIPAP 15/5/50%,,5
+ac15/400/50/8,,5
+trach T piece,,5
+ac34/pc28/65%/+9,,5
+70%,,5
+CPAP10,,5
+BiPAp,,5
+extubated,,5
+BiPAP/CPAP 14/4,,5
+oxymizer/NRM,,5
+HIFLOW NC,,5
+AC 14 400 100% +5,,5
+nc 2L,,5
+F.M.: non-rebreather,,5
+50 % 50L,,5
+"vent:AC20.450,+8",,5
+BIPAP 12/5,,5
+40 %  30 L,,5
+vapo,,5
+3LNC,,5
+ac 10 500 50 5,,5
+cpap 10/5 50%,,5
+Cool Aerosol,,5
+o2,,5
+50% venturi mask,,5
+part-rebreather,,5
+bipap 20/5 50%,,5
+None(Room air),,5
+BiPAP/CPAP+10,,5
+AC 10 600 60 5,,5
+hiflo nc,,5
+bipap 12/6,,5
+oximizer 10 liters,,5
+2l nc 02,,4
+ac 14 250 90 +5,,4
+nasal cannula & Venti,,4
+ventilator ac 24/350/+5,,4
+"Ventilator +10, AC 24, P22, 100% ",,4
+oxymzier 5Liters,,4
+oxymzier 5L,,4
+Hight flow,,4
+mask 12/5,,4
+BiPAP/CPAP/520/8/5,,4
+CPAP 10/5 40%,,4
+CPAP 12/5 40%,,4
+PARTIAL NRM,,4
+"AC14, 380, 45%, +5",,4
+HF 50%/50L/50%Vm,,4
+"Vent.AC12,500,+5",,4
+NRB ,,4
+ventilatorac/20/450/+5,,4
+BiPAP/14/5,,4
+ventilator AC 500/6/50/32,,4
+AC14 100% 400 +5,,4
+OM,,4
+ventilator-cpap,,4
+ventilatorac/20/,,4
+other - T piece,,4
+nasal cannula/vento,,4
+ventilator- cpap ps 10,,4
+NC2L,,4
+HFHH,,4
+AC 14 600 100 5,,4
+AC 26/375/40%/+10,,4
+ NC,,4
+AC 16 500 40 5,,4
+Trach to Vent,,4
+"AC12, 500, 40%, +5",,4
+50% VM,,4
+AC 18 / 350 / 50% / +5,,4
+T-piece ,,4
+BiPAP (20/5),,4
+AC 16/300/40/+5,,4
+oxmizer,,4
+r,,4
+ROOM  AIR ,,4
+"AC12, 430, 30%, +5",,4
+11,,4
+AC16 50 +5  320,,4
+avaps,,4
+CPAP 10/5 50%,,4
+AC 10 400 60 10,,4
+NRB/5 L/NC,,4
+ventilatortrach,,4
+ventilator/cpap+5/psv 8,,4
+RoomAir ,,4
+HI-FLOW,,4
+Bipap 24/8,,4
+.nc,,4
+nchf,,4
+non-rebreather (L/Min),,4
+BiPAP12/8,,4
+BiPaP  14/7,,4
+Venti Mask,,4
+65%,,4
+avap,,4
+oxymiser ,,4
+BiPAP/CPAP/10,,4
+"CPA+5,++10",,4
+venturi mask50%/n/c2l,,4
+mistyox,,4
+Hiflow 45%/ 35L,,4
+Hiflow 50%/ 40L,,4
+Hiflow 60%/ 30L,,4
+nasal cannula/tent,,4
+room-air,,4
+Hiflow 80%/ 50L,,4
+Oxi-mask,,4
+oxyimyzer,,4
+HiFlo  40/100%,,4
+BIPAP 14/8,,4
+Hi Flo 50L,,4
+S Mask,,4
+CPAP 15/8,,4
+91,,4
+HI flow,,4
+roomair ,,4
+cool misty ox,,4
+High flow 45 L/min,,4
+hiflow80,,4
+70,,4
+"BiPAP/CPAP, 14/5",,4
+NIV (Bipap 13/5),,4
+misty 02,,4
+BiPAP/CPAP/10/5,,4
+Misti-Ox,,4
+BiPAP -12/5,,4
+simple facemask,,4
+High Flow/30L ,,4
+CPAP14,,4
+rooma air,,4
+high flow O2,,4
+50%  15 L,,4
+BiPAP 10/6,,4
+HIFLOW ,,4
+BIPAP 15/8,,4
+BiPAP 18/10,,4
+PS 15/5/40%,,4
+home ventilator,,4
+F>M>: non-rebreather,,4
+"AC12, 450, 40%, +5",,4
+CPap,,4
+BiPAP/CPAP 16/5,,4
+AC 14 400 40% +5,,4
+95%,,4
+1 L,,4
+bipap 12/5 ,,4
+cpap11,,4
+48%,,4
+HI FLO N/C,,4
+other: Ambu,,4
+"Vent +5, 390, 15",,4
+other:  high flow,,4
+High Flow Nasal Canula,,4
+other-Mask Vent,,4
+BiPAP 14/4,,4
+"AC12, 380, 50%, +5",,4
+BIPAP 12/5/ 100%,,4
+part rebreather,,4
+ventimask,,4
+other/hi flo 35%,,4
+2liters,,4
+aerosol mask,,4
+ac16/400/35/5,,4
+scoop,,3
+COOL AEROSOL MASK 100%,,3
+"Ventilator +10, AC20 P16, 100% ",,3
+NASAL CANULA,,3
+oxymzier 4 Liters,,3
+oxymzier 4Liters,,3
+CPAP 10/5 30%,,3
+non-rebreather+5L n/c,,3
+Oxyxmizer,,3
+15/400/60/5,,3
+AC 12 400 50 5,,3
+R,,3
+other/oxim,,3
+cpap/ps 10,,3
+other hi flow,,3
+BiPAP/10/5@ 50%,,3
+HF 50%/50L/50% Vm,,3
+HGigh Flow,,3
+AC 18/320/35/+8,,3
+"CPAP, ps 10,fio2 45%,",,3
+TMist,,3
+ventilator AC 500/8/70/32,,3
+ac22/50/60+7,,3
+"AC10, 500, 60%, +8",,3
+"AC10, 500, 50%, +8",,3
+tmist,,3
+Tpeice,,3
+T-Mist,,3
+0.35,,3
+Aerosol,,3
+"AC15, 350, 40%, +5",,3
+ac 15/350/40/5,,3
+CPAP 45% 10/8,,3
+"BiPAP/CPAP,12/5",,3
+PRBM,,3
+non-rebreather/4c,,3
+"VM, NC",,3
+nasal cannula/ venti ,,3
+AC 22 300 100 5,,3
+HHHF NC ,,3
+Portable ventilator,,3
+"AC14, 400, 50%, +5",,3
+nasal cannula/venti,,3
+2L/min,,3
+"AC10, 500, 50%, +5",,3
+AC 12 400 100 8,,3
+Heated Hi-Flow,,3
+BiPAP (15-8),,3
+High Flow Venturi,,3
+venturi mask+ NC,,3
+Opti flow,,3
+3l,,3
+BiPAP(12/5),,3
+bi-pap,,3
+bipap 18/5/,,3
+16,,3
+May-40,,3
+ROOM Air,,3
+High-flow nasal cannula,,3
+AC18/450/50%/5,,3
+40% VM,,3
+BiPAP (12/5),,3
+non-rebreather/nc,,3
+"Vent 24, +5, 440",,3
+"ventilator, CIPAP",,3
+opt,,3
+Trach Collar ,,3
+home bipap,,3
+ac12 430 p5,,3
+CPAP 40% 13/7,,3
+AC15/400/40%/8,,3
+"vent:AC24,360,=8",,3
+trach to vent ,,3
+T Piece ,,3
+"AC16, 350, 50%, +8",,3
+ac16 380 p5,,3
+ac 28 350 50% 10peep,,3
+high-flow ,,3
+hhfc,,3
+HHFLNC,,3
+ventilator-spontaneous,,3
+cont neb,,3
+high flow 40 liters,,3
+3L/min,,3
+bipap 18/10-3L bleed-in,,3
+ventilator AC14/450/+5,,3
+"AC14, 400, 90%, +5",,3
+bipap12/6,,3
+pt removed,,3
+"venturi mask,misty ox",,3
+ VapoTherm 10L  Nasal Canula,,3
+CPAP/8,,3
+ home CPAP,,3
+other HI FLO,,3
+CPAP+5/ps8/450,,3
+non-rebreather & high flow 15L,,3
+portable vent,,3
+oxymizer nasal pend.,,3
+ partial non-rebreather,,3
+t-piece trial w/peep valve,,3
+45,,3
+other Hi Flow,,3
+"HiFlo  40 L,100%",,3
+oroom air,,3
+Hiflow 45%/ 40L,,3
+other blender,,3
+oxymisier,,3
+100 NRB,,3
+nasal cannula/BIPAP from home,,3
+Bipap 19/5,,3
+Bagged,,3
+ventilator CPAP PS10/TV400/50%/PEEP5,,3
+nasal cannula-hi flow,,3
+BiPAP with heliox 70/30,,3
+rooom air,,3
+vented ,,3
+oxymizer/face tent 100%,,3
+BiPAP E/15; I 5,,3
+other HiFlow 40 Liters,,3
+"other, vaportherm",,3
+BiPAP/20/5 30%,,3
+nasal cannula/optimizer,,3
+highflow 30L/80%,,3
+ventilator/PS 5,,3
+AC 10 700 100 10,,3
+Bipap 12/6,,3
+AC 10 700 40 10,,3
+CPAP /7,,3
+Hi Flow - 30L,,3
+Hiflo ,,3
+BiPAP/CPAP 12/5-12,,3
+Partial rebreather,,3
+RmAir,,3
+HIght flow 80%/38L,,3
+AC24/450/+5,,3
+bipap12/5/50%,,3
+other ra,,3
+face tent ,,3
+BiPAP/CPAP 13/8,,3
+ cpap 5/5 40%,,3
+nasal cannula hum,,3
+other - highflow NC,,3
+oxymeiser/6 liters,,3
+BiPAP/CPAP  20/5,,3
+oxymeiser/8 liters,,3
+BiPAP16/8,,3
+35%,,3
+refused.,,3
+BiPAP  15/5,,3
+100% NRB,,3
+hi FLO,,3
+partial nonrebreather,,3
+high flow100% @30 liters,,3
+BiPAP/CPAP/14/6 ,,3
+Cpap 50 5 10,,3
+nasal cannula/CPAP,,3
+AC10/40%/300/5,,3
+oximzer,,3
+AC 14 400 70% +5,,3
+ROM AIR,,3
+"AC14, 385, 50%, +5",,3
+Misty-Ox (%),,3
+90 % 50L,,3
+50%VM,,3
+BiPAP/14/7,,3
+nasal cannula/tc,,3
+bipap 18/6,,3
+ac16 400 p5,,3
+AC 12 500 50 5,,3
+Vm,,3
+N/C 4 L,,3
+hhnc,,3
+AC 16 350 70% +10,,3
+bipap 15/5 ,,3
+AC-20 ventilator,,3
+BiPAP20/8,,3
+hi flow areosol,,3
+AC- 20,,3
+"other, vapotherm",,3
+other PRESSURE SUPPORT,,3
+other-PS,,3
+AMBU,,3
+See Bipap,,3
+.niv,,3
+high flow & 100% non rebreather,,3
+ventilator/ac-35,,3
+FM/continuous neb,,3
+High Flow 20L,,3
+HiFlow 100%/40L,,3
+HiFlow 100%/40 with 100%NRB,,3
+other/hi-flow,,3
+BiPAP 17/5,,3
+BIPAP  18/5,,3
+N/C 2 L,,3
+bipap 15/5 50%,,3
+other hi flo 35%,,3
+nc2,,3
+bipap 10 5,,3
+40% TP,,3
+ac 14 250 100 +5,,2
+BiPAP/CPAP12/7,,2
+ac 14 400 100% 5,,2
+"ventilator +10, 100%, P22, AC 30",,2
+OXIMIZER ,,2
+100% nrm,,2
+face m ask,,2
+12/5/40,,2
+Partial NRM,,2
+High/ Low,,2
+CPaP,,2
+BiPAP 12/5 ,,2
+other HI-FLO ,,2
+HF 50%/50L,,2
+oximizer @9 L,,2
+50 % vm,,2
+vent ac 500/10/70/32,,2
+cppa/6/50/,,2
+other: oxymask,,2
+T-Mist ,,2
+CPAP 30% 8/5,,2
+"AC15, 300, 30%, +5",,2
+"AC10, 500, 70%, +5",,2
+"AC12, 320, 40%, +5",,2
+"AC10, 500, 60%, +5",,2
+T-peice,,2
+HF NC ,,2
+AC 14 450 100 5,,2
+ac12 480 p5,,2
+"AC14, 410, 60%, +5",,2
+vent/pressure control,,2
+"AC15, 360, 50%, +8",,2
+CPAP 40% 10/8,,2
+simple  mask,,2
+88,,2
+partial rebreather mask,,2
+"vent (AC 12, 400, +5)",,2
+np,,2
+Heated HF,,2
+Heated High Flow O2,,2
+BIPAP 50% 5/10,,2
+ventilatorCPAP,,2
+HEATED Hi-FLOW,,2
+Heated Hi-flow,,2
+AC 25 400 60 10,,2
+TC RA,,2
+oral canula,,2
+80,,2
+BiPAP (15/5),,2
+facetent,,2
+Partial NRB,,2
+non-rebreather+5L,,2
+HHFM,,2
+50 % VM+ NC 5L,,2
+t piece ,,2
+FACE TENT,,2
+Partial Nonrebreather,,2
+bipap 12 5,,2
+BiPAP/12/5/,,2
+Room ,,2
+ROOM air,,2
+BiPAP (15-7),,2
+Nasal bipap,,2
+"AC16, 400, 40%, +8",,2
+BiPAP ( 16/8 ),,2
+36,,2
+"AC16, 500, 50%, +5",,2
+Nasal CPAP,,2
+CPAP 35% 10/5,,2
+"AC14, 350, 40%, +5",,2
+BiPAP ( 12/5 ),,2
+hiflow NC,,2
+H F nasal cannula,,2
+80%,,2
+T PIECE,,2
+AC28/PC 20 100% +14,,2
+T.C.,,2
+humidified,,2
+aresol,,2
+aerosol ,,2
+AC14/500/40%/5,,2
+rra,,2
+T-Piece ,,2
+oxy mask ,,2
+ventilator/cpap trial,,2
+nasal cpap,,2
+NC 3L,,2
+BiPAP ( 18/5 ),,2
+AC16 70 +5  320,,2
+15,,2
+AC16 100 +5  320,,2
+Trach T-Piece,,2
+vent:CPAP,,2
+SR,,2
+"ROOM, AIR",,2
+ventilator/Trach,,2
+PNRM,,2
+H-flow,,2
+BiPAP (12-5),,2
+bibap 10/ 5 50%,,2
+trach to t piece,,2
+bipap 10/5 50%,,2
+10L,,2
+trach/tpiece,,2
+11-Mechanical Ventilator,,2
+Blowby,,2
+None (Room Air),,2
+hi flow cannula,,2
+TCM,,2
+hiflo n/c,,2
+Bipap 14/7,,2
+Mechanical Ventilator,,2
+PM,,2
+venti ,,2
+ac14/400/40%/+5,,2
+"NCHH, NRBM",,2
+N/C ,,2
+trache mask,,2
+continuous nebs,,2
+BiP...,,2
+Veti Mask,,2
+cpap 50 5 10ps,,2
+ext mask,,2
+ventilator/CPap,,2
+other Blender,,2
+1 Liter nc,,2
+!L,,2
+high flow90% @40 liters,,2
+"ambu bag, actively bagging",,2
+79,,2
+BAG MASK,,2
+"Vent,  AC  14, 420, +5",,2
+VapoTherm Nasal Canula,,2
+"Vent AC 14, 420,+5",,2
+"CPAP +5, PS 8 ",,2
+other oxymizer,,2
+bag mask valve,,2
+OXYMISER,,2
+SBT,,2
+T piece with peep valve,,2
+hiflow/nonrebreather,,2
+nasal cannul,,2
+non rebreather mask,,2
+cpap 40% ps 10 520,,2
+Hiflow 30L / 50%,,2
+high fflow,,2
+0.45,,2
+"vent, +5, 450",,2
+AC 10 365 40 5,,2
+HI FLOW 20L,,2
+ETCO2,,2
+BiPAP/CPAP 15/10,,2
+Hi/Flow,,2
+Hiflow 70%/ 45L,,2
+FIO2 50%,,2
+Hiflow 35%/ 30L,,2
+nasal cannula/face tent,,2
+Hiflow 50%/ 35L,,2
+Vent ,,2
+AVAPs,,2
+nasalcannula ,,2
+venti/cpap,,2
+HiFlo 50L,,2
+trach collarw/ T piece,,2
+V M,,2
+cpap/ventilator,,2
+VM- humidified,,2
+cpap 50 5 10,,2
+CPAP 5 cm,,2
+90,,2
+Hi flow 35L,,2
+facmask,,2
+nasal cannula-capnography,,2
+vn,,2
+99%,,2
+Nasal cannula ,,2
+Venturimask,,2
+nasal cannula-oximizer,,2
+ventillator,,2
+Vaotherm,,2
+hiflow70,,2
+BIPAP 10/4,,2
+BiPAP/CPAP 16/8,,2
+BiPAP- 12/5,,2
+nc 2 L,,2
+nonrebreather and hi-flow,,2
+"nasal cannula, humidified",,2
+rm,,2
+Partial nonrebreather,,2
+"AC16, 450, 40%, +5",,2
+Hi Flow 25L,,2
+other-RA,,2
+non,,2
+"AC16, 360, 30, +5",,2
+BiPAP16/6,,2
+"AC14, 400, 30%, +5",,2
+ac 12 500 50% +5,,2
+nasal cannula/oxim,,2
+nasal cannula HF,,2
+room air. refused nc,,2
+HI flo,,2
+ac  14 400 40 +5,,2
+       CPAP,,2
+misty ox FM,,2
+ventilator/ac16,,2
+VM/NC,,2
+60%  15 L,,2
+8 L oxymizer,,2
+CPAP +10 PS/+5 Peep,,2
+BV,,2
+shovel mask,,2
+40%tc,,2
+F.M.:non-rebreather,,2
+ambu bag ,,2
+bipap 20/6,,2
+CPAP 40% 10/5,,2
+60 % 40L,,2
+ac14 400 p5,,2
+50 % 70L,,2
+50 % 60L,,2
+40 %  40 L,,2
+ac 16 400 p5,,2
+BiPAP 15/5 ,,2
+Hi Flow  ,,2
+nasal cannula/HF,,2
+BiPAP/18/6,,2
+"ac16,400,50%,5",,2
+"pressure support 10, spontaneous",,2
+"pressure support 14, spontaneous",,2
+17,,2
+CPAP11,,2
+HF 30,,2
+cont nebs ,,2
+HF 40%,,2
+nasal cannula/humidified,,2
+"Vent +5, 250, 15",,2
+trac,,2
+"vent:AC/VC15,310,+4",,2
+NC / RA,,2
+Vent (CPAP),,2
+BiPAP/CPAP 15/7,,2
+Partial nrm+nc,,2
+CPAP/10,,2
+HF N\C,,2
+other MV,,2
+other/High Flow,,2
+High Flo NC,,2
+"vent +5, 400, 14",,2
+hi- flow,,2
+ac14/450/60%/+5,,2
+3lpm,,2
+home CPAP auto peep,,2
+Highflow NC ,,2
+manually ambu bagged,,2
+hI FLOW,,2
+40% TPIECE,,2
+cool mist mask,,2
+12,,2
+CPAP 40% 15/5,,2
+BiPAP(10-5),,2
+ROOM,,2
+CPAP TRIAL,,2
+CPAP 11/5 40%,,1
+vaportherm,,1
+2 l n/c,,1
+HFNP 30L,,1
+ac 14 250 50 +5,,1
+CPA 10/5 40%,,1
+Misty Ox ,,1
+oxymizrer,,1
+CPAP 15 ,,1
+AC 12 400 40 5,,1
+BIPAP 12/5/40%,,1
+ac 14 400 40% 5,,1
+hight flow,,1
+ventilator cpap+5/10,,1
+oxyimzer,,1
+oxymzer,,1
+5 L,,1
+ac14/320/40%/5,,1
+venturi mask+NC 3 L,,1
+"vent:AC14520,+5",,1
+Other (comment),,1
+HOME CPAP ,,1
+other ambu bag ,,1
+ac14 350 p5,,1
+4LT,,1
+"AC16, 350,, 355 +5",,1
+4ltr Oximizer,,1
+8L oximizer,,1
+"AC16, 350, 35%, +5",,1
+"AC16, 350, 35%%, +5",,1
+15/400/40/5,,1
+BiPAP/CPAP 20/8,,1
+AC 12 400 35 5,,1
+other HIGH FLOW,,1
+ventialtor,,1
+2L/min  n/c,,1
+hgh flow,,1
+HGH FLOW,,1
+"AC 18, 300, 50% +12",,1
+ac20 300 p12,,1
+other (AMBU),,1
+Bipap 40%,,1
+AC 20 300 60 +12,,1
+HIGLOW,,1
+hi flow-40,,1
+ac 20 300 p15,,1
+"AC14, 380, 40%, +5",,1
+non-rebreather partial,,1
+cpap/ps 15,,1
+"AC14, 380, 35%, +5",,1
+ve4ntilator,,1
+BiPAP 12?5,,1
+nasall canula,,1
+vent.:cpap 10/6,,1
+rr/a,,1
+BiPAP pt's home,,1
+BiPAP home,,1
+"AC14, 380%, 35%, +5",,1
+"vent.:AC18,500,+8",,1
+BiPAP(18/5),,1
+"AC14, 380%, 50%, +5",,1
+partial NRM,,1
+VM ,,1
+Heated Humidity,,1
+HI FLO & NRB,,1
+0.5L,,1
+AC 16/420/40%/+5,,1
+BiPAP/10/5@ 15L,,1
+ac10 600 p5,,1
+oximizer 12L,,1
+partial mask,,1
+"ac 12,400,35%+5",,1
+        RA,,1
+cpap 9,,1
+cpap  9,,1
+BiPAP 15/10,,1
+"ventilator, 50 % c 30 peep 8 350",,1
+High Flow cannula,,1
+Oximyzer.,,1
+12 380 p5,,1
+HF 35 L,,1
+High-flow Nasal Cannula,,1
+highflow aerosol ,,1
+highflow aerosole,,1
+N/C + 50% VM,,1
+hiflow aerosole,,1
+HLNC,,1
+other: oxy-mask,,1
+ac/6/60/6,,1
+CPAP with ventilator,,1
+ mask,,1
+ac/6/50/,,1
+AC14 400 100% +5,,1
+N C,,1
+TMist Trial,,1
+t-piecs,,1
+T-piesce,,1
+CPAP via ventilator,,1
+ac18 350 p5,,1
+RA.,,1
+Tpeiece,,1
+trach collar/vent,,1
+cpap 8/5,,1
+Vent/trach,,1
+0.3,,1
+ac10 400 p5,,1
+CPAP-22 40%,,1
+trach colar,,1
+CPAP on vent,,1
+Placed on CPAP with ventilator. ,,1
+T-mask,,1
+t- mist,,1
+"AC10, 500, 70%, +10",,1
+"AC12/320,/40%/+5",,1
+parital non-rebreather,,1
+Volume Support,,1
+simple maks ,,1
+2LNC 02,,1
+4L NC 02,,1
+ventilator - pressure support,,1
+ac14 410 p5,,1
+14 410 p5,,1
+"AC12, 480, 40%,5",,1
+off vent,,1
+"AC14, 485, 50%, +5",,1
+Oxymas,,1
+"AC14, 410, 40$, +5",,1
+other/oxymak,,1
+"AC14, 40, 60%, +5",,1
+ac10 350 p8,,1
+other/oxy mask,,1
+prs supoort,,1
+other/tpiece,,1
+"AC10, 360, 50%, +8",,1
+Venti ,,1
+"AC15, 360, 50% +8",,1
+CPA 12/5 40%,,1
+vent/ pressure control,,1
+"AC15, 350, 40% +5",,1
+"AC15, 360, 60%. +5",,1
+"AC 30, 50 % PEEP10 570",,1
+Heated humidity,,1
+rz,,1
+OxiMask,,1
+vent/presure control,,1
+0.21,,1
+HIGH FLOW vapotherm,,1
+CPAP 55% 10/8,,1
+"ven AC. +5, 400, 24",,1
+oxy mask and cannula,,1
+trach mist,,1
+"ROO, AIR ",,1
+endotracheal tube,,1
+High Flow nasal cannula,,1
+high floww,,1
+HH,,1
+heated high flow,,1
+partial nonrebreather mask,,1
+nivppv ,,1
+Heated High flow,,1
+HIGH FLOW ,,1
+vn/nc,,1
+NC HIGH FLOW ,,1
+Heated high flow,,1
+vm/n/c,,1
+Heated  high flow,,1
+Ropm Air,,1
+HHF NC,,1
+other-HF,,1
+SAN/ NC 5L,,1
+Heated High-Flow,,1
+45L hi flow,,1
+Room air.,,1
+NP,,1
+heated hiflow,,1
+heated hihumidity,,1
+"CIPAP, Vent",,1
+AC 22 300 100 15,,1
+4/L,,1
+MASK,,1
+heated hI flow,,1
+AM,,1
+High-flow ,,1
+HFHH ,,1
+Mist tent,,1
+NC HIGH FLOW,,1
+manual ,,1
+RA6,,1
+nasal cannula/vrnti ,,1
+simv,,1
+Heated High Flow ,,1
+endotracheal tube;mechanical ventilation,,1
+EA,,1
+trach tro vent,,1
+trach to  vent,,1
+HHM,,1
+AC 14 600 60 5,,1
+NMR,,1
+BiPAP E-7,,1
+Humidified TC,,1
+Simple Mask ,,1
+Opti-flow,,1
+BiPAP (16/5),,1
+ventilator/track,,1
+BiPap(15/7),,1
+BiPAP ( 12/6 ),,1
+ROOMair,,1
+Trach collar.,,1
+BiPAP (20-6),,1
+AC 26/375/40%/10,,1
+VAPOtherm,,1
+ROO AIR,,1
+Optiplow,,1
+HI Flow NC,,1
+nasal cnnula,,1
+rooom air ,,1
+"AC10, 500, 100%, +5",,1
+ambuing,,1
+Simple mask ,,1
+Rroom air,,1
+non-rebreather/HFNC,,1
+NRB/HFNC,,1
+high flow O2 via trach tube,,1
+humidified oxygen trach,,1
+HFNC to Trach,,1
+T- PIECE,,1
+omptimizer,,1
+BiPAP (16/10),,1
+nasal cannula/2,,1
+t  piece,,1
+"ac 30 , 70 %,peep8 350",,1
+CPAP(4),,1
+pNRB,,1
+Trach TP,,1
+trtach to vent,,1
+BiPAP (15/7),,1
+autopap,,1
+simsple mask,,1
+BIPAP 14/6,,1
+optilflow,,1
+optoflow,,1
+optiflow ,,1
+BiPAP(15/5),,1
+trach tube,,1
+ventilator ( VC ),,1
+Flow-by NC,,1
+ac 10 500 40% 5peep,,1
+"AC-16,450,60%+ 5",,1
+AC 20 400-60-10,,1
+ventimask ,,1
+tpiece trach,,1
+ventilator+10,,1
+Optimizer,,1
+Optiflow ,,1
+oxyymizer,,1
+AVap,,1
+home cpap,,1
+nrbm+hfnc,,1
+"NRBM, HFNC",,1
+Simple face mask,,1
+xymizer,,1
+blow by O2,,1
+AVAP+5,,1
+   RA,,1
+2 L NC,,1
+BiPAP (12-6),,1
+nasal mask,,1
+HFNC/vapotherm,,1
+21ra,,1
+BiPAP(15-5),,1
+VENT/TRACH,,1
+AC 12/TV 500/+5 pee,,1
+ventilator/trach/CPAP,,1
+BiPAP 19/5,,1
+aerosol,,1
+BiPAP ( 12/8 ),,1
+R0OOM AIR,,1
+Nonrebreather,,1
+Nasal Cannual,,1
+BiPAP 14/6 ,,1
+ vent,,1
+oxymize5,,1
+BiIpap,,1
+room ,,1
+CPAP-15,,1
+BiPAP ( 15/8 ) ,,1
+cpap 12/5,,1
+BiPAP ( 12/7 ),,1
+"AC16, 400, 40%, +5",,1
+5LNC,,1
+Simple Mak,,1
+simplle mask,,1
+BiPAP (12/6 ),,1
+"A16, 450, 40%, +5",,1
+14,,1
+Trach to T-Piece,,1
+T-Piecs,,1
+"AC16, 450, 40%, +8",,1
+"AC16, 450, 60%, +8",,1
+"AC12, 400, 60%, +5",,1
+T Piece to trach,,1
+t Piece,,1
+"AC16, 500, 450%, +5",,1
+BiPAP (14/6),,1
+ventilator|trach,,1
+"AC16, 400, 50%+5",,1
+BiPAP (10/5) ,,1
+`ROOM AIR,,1
+BiPAP ( 8/5 ),,1
+BiPAP (12/6),,1
+"AC12, 400, 60.%, +5",,1
+Trach T piece,,1
+CPAP (3),,1
+trach  to vent,,1
+ventilator +8,,1
+oxymier,,1
+BiPAP(20-5),,1
+"AC10, 450, 50%, +5",,1
+"AC12, 60%400, +5",,1
+NC/ventimask,,1
+  high flow,,1
+hfnasal cannula,,1
+oXYMIZER,,1
+T-PIece,,1
+Partial Non-Rebreather,,1
+Trach/ventilator,,1
+BiPAP ( 10-5),,1
+BiPAP ( 17/5 ),,1
+AC 14 400 40 5,,1
+BiPAP ( 20/4 ),,1
+ccollar,,1
+vepotherm,,1
+ROPOM AIR,,1
+face tent(HH),,1
+CPAP ( 7 ),,1
+"vent:AC25,350,+10",,1
+NC & Venti Mask ,,1
+Neb Mask,,1
+BiPAP (20/12),,1
+Tpiece/ETT,,1
+NRBM/oxymizer,,1
+NC 2LPM,,1
+BiPAP ( 10-5 ),,1
+full face mask,,1
+NL,,1
+hi fl;ow,,1
+vapotherm HFNC,,1
+CPAP(10),,1
+Nbipap,,1
+BiPAP (14/8),,1
+ventilator/trac,,1
+BiPAP ( 20/8 ),,1
+T Tube,,1
+Trached to Vent,,1
+chr trach to vent,,1
+trah to ventilator,,1
+ROOKM AIR,,1
+Nasal cannul,,1
+trach to tpiece,,1
+Trach to T-Piece ,,1
+room aior,,1
+7L,,1
+Simole mask,,1
+trach to ven,,1
+Ambu to Face,,1
+BiPAP (15.5),,1
+OPTIFLOW ,,1
+OPTIMIZER,,1
+BiPAP (20/10 ),,1
+BiPAP ( 20/10 ),,1
+BiPAP ( 16/12 ),,1
+AC16/400/+5,,1
+2l nc,,1
+high-flow cannula,,1
+VENTI  MASK,,1
+oyx mask,,1
+oxymizer perTC,,1
+NFNC/NRB,,1
+BiPAP  12/7 ,,1
+BiPAP/CPAP 10/30,,1
+simp mask,,1
+ventilator( SIMV ),,1
+RA/trach capped,,1
+room aIR,,1
+cool aersol,,1
+ROOM AI R,,1
+oxymizer (moustache),,1
+"AC14, 350, 505 +7",,1
+BIPAP 40% 12/5,,1
+ETT to Ambu,,1
+AMBUBAG,,1
+"50% ac 35 peep 10,380",,1
+Sep-50,,1
+nasal CPAP,,1
+partial-rebreather,,1
+BiPAP (25-5),,1
+Nasal bipap-home,,1
+ac12 430 5,,1
+heated HiFlowNC,,1
+50 % VM,,1
+40% CAM,,1
+BIPAP 12/5 40%,,1
+ventilaor,,1
+Trach/t-piece,,1
+T-piece via trach,,1
+AC16 50% +5  320,,1
+T-Picec,,1
+VENT/CPAP,,1
+simpl e mask,,1
+BiPAP ( 15/4 ),,1
+bagging ,,1
+"vent:AC24,360,++8",,1
+BiPAP (21/14),,1
+BiPAP (22/16),,1
+Nasal Bipap,,1
+HOme nasal bipap,,1
+cpap5/5 35%,,1
+nasal bipap,,1
+BiPAP ( 14/8 ),,1
+TRACH/ventilator,,1
+trach/ventiator,,1
+Full face mask,,1
+bipap 10-/5 50%,,1
+nasal cannula-HF,,1
+33,,1
+ETT to Abme,,1
+FaceTent,,1
+BiPAP ( 14/6 ) ,,1
+h-flow,,1
+AVAP (10-5),,1
+BiPAP (12/50,,1
+rrom air,,1
+ventilator (SIMV) PS-15,,1
+traach to t-piece,,1
+trach to t-piece,,1
+ventilator/ cpap,,1
+ac15 350 p5,,1
+hf nasal cannula,,1
+cpap PS 8,,1
+St,,1
+trach / tpiece,,1
+ tpiece,,1
+"AC16, 350, 50%+5",,1
+cannula to trach,,1
+oxygen to passy-muir valve,,1
+Mechanical Ventilation,,1
+Mechanical Vent,,1
+CPAP-(5-10),,1
+BiPAP (12-5 ),,1
+ac16 300 p5,,1
+ac12 300 p5,,1
+"AC16, 350, 50%,+5",,1
+bipap 10/ 5 50%,,1
+Ambu bag,,1
+CPAP (5),,1
+ac16 300 p7,,1
+Venturi Mask,,1
+"AC16, 450, 50%, +5",,1
+"AC16. 650, 50%, +5",,1
+bi pap,,1
+OETT,,1
+AER,,1
+None( Room air),,1
+none (Room air),,1
+venturi,,1
+None ( ROom air),,1
+none (Room Air),,1
+ventilator50,,1
+"AC16, 350, 50%, +6",,1
+VM/NCHF,,1
+40L/50%,,1
+BiPAP (18-12),,1
+30L/100%,,1
+20L/100%,,1
+vent30,,1
+HIGHFLOW,,1
+TC ,,1
+n,,1
+EXTUB.   NC,,1
+simple face,,1
+manual bagging,,1
+BLENDER,,1
+HIGF FLOW NC,,1
+ra0.7,,1
+ac 22 260 p10,,1
+high flor NC,,1
+high flow nasal cannula ,,1
+High flow nasal cannual,,1
+8 liters high flow nasal cannula,,1
+Simple MASK,,1
+Venti-mask,,1
+bipap 12/8,,1
+ac16 350 5,,1
+bipap 12/ 8 50%,,1
+hf NC,,1
+Bi-Pap,,1
+1,,1
+Trach collar mist,,1
+vm/nc,,1
+rooam air,,1
+3 lpm,,1
+HI FLOW N/C,,1
+romm air,,1
+ nc,,1
+"other,vapotherm",,1
+13,,1
+r m air ,,1
+oxygen off,,1
+RM AIR ,,1
+trach vent ,,1
+Trach/Vent,,1
+rm  air ,,1
+bipap14/7,,1
+bipap 14/6,,1
+Bipap  ,,1
+50L/100%,,1
+other: Vent on CPAP,,1
+trach ventilator,,1
+n/a,,1
+non-rebreather/n/c back up,,1
+100%NRB MASK,,1
+ventq,,1
+VAPOR THERM,,1
+59,,1
+"AC16, 350, 60%, +10",,1
+vemt,,1
+hNCH,,1
+22,,1
+l aerosol mask,,1
+Misti-ox,,1
+"AC16, 350, 60%,+10",,1
+"AC16, 350, 50%+10",,1
+mask vent ,,1
+Misty Ox (%),,1
+ventilator/cpap mode,,1
+bipap 16/8 15L bleed-in,,1
+cpap w/O2 ,,1
+room sir,,1
+"A16, 350, 50%,+10",,1
+5,,1
+2lpm,,1
+mistyox ,,1
+nasal cannula+VM 50%,,1
+"AC16, 350, 80%,+5",,1
+4L/min,,1
+on room air,,1
+ventilator/c-pap-mode,,1
+"AC16, 350, 100%+12",,1
+"AC16, 350, 100%,+12",,1
+Rooom air,,1
+Oxy,,1
+nc 5,,1
+bag mask,,1
+40%/30L,,1
+6 liters,,1
+nrb mask,,1
+ VapoTherm 20L  Nasal Canula,,1
+other RA,,1
+"AC16, 350, 100%, +12",,1
+BiPAP12/5/35%,,1
+other-misty ox,,1
+BiPAP 17/12,,1
+roomn air,,1
+nc/oxymizer,,1
+Hi Flow 30Liters,,1
+"Hi Flow, 25L",,1
+"BiPAP/CPAP, 13/8",,1
+misty Ox,,1
+oXYMISER,,1
+Oxymiser ,,1
+ home CPAP/3liters 02,,1
+NC 2 L,,1
+HIght flow 100%/38L,,1
+other/blender,,1
+Hi-Flow ,,1
+BiP65AP/CPAP,,1
+other/misti ox,,1
+"Vent,  CPAP +5, PS - 8",,1
+BiPAP/CPAP12/5,,1
+non-rebreather/6liters n/c,,1
+70%/40L high flow,,1
+pendant oxymizer,,1
+Ooxymmizer,,1
+venturi mask (%),,1
+Hi - flo,,1
+Oxymizer 12L,,1
+PS 5,,1
+BiPAP/CPAP-18/8,,1
+Bag/Mask,,1
+         ra,,1
+"Vent 15, 400,+5",,1
+hiflow 40L,,1
+CPAP +8,,1
+hiflow70% 50L,,1
+CPAP  8,,1
+VM humidified,,1
+trch,,1
+non rebreaather,,1
+roma air,,1
+other:Oximizer,,1
+"bagging, pre intubate",,1
+nasal cannula hiflo,,1
+Hi-Flow NC,,1
+cool aerosol mask/misty ox,,1
+manual bag,,1
+ozxymizer,,1
+Hiflow 45%/ 30L,,1
+BiPAP/CPAP 13,,1
+T piece blender w/ PEEP valve,,1
+BiPAP15/9,,1
+off,,1
+8 LITER FACEMASK,,1
+nc/ vm,,1
+ventimask +nc 5l,,1
+Ac 10 365 40 5,,1
+venturi to trach,,1
+BiPAP/CPAP 18/7,,1
+ventiltor,,1
+BiPAP/CPAP 14/10,,1
+SB,,1
+Pt being bagged,,1
+High flo,,1
+bagging pt,,1
+high-flow nasal cannula,,1
+  trilogy machine,,1
+Ozymizer,,1
+oxymizer 10L,,1
+olximyzer,,1
+Oximyzer ,,1
+BiPAP withheliox 70/30,,1
+BiPAP/CPAP 14/6,,1
+other - ambu bag,,1
+AC 24 450 100% 15PEEP,,1
+Ambu Bag,,1
+BiPAP 50%,,1
+hi flo 50L,,1
+hIGH fLOW,,1
+High Flow 60%/45L,,1
+nasalcannula,,1
+high flow 60%/45L,,1
+extubated!,,1
+trach collar RA,,1
+Ambu-bagged,,1
+Nasal  cannula,,1
+50%vm,,1
+High flow 40L,,1
+Bipap 15/8,,1
+Hi -flow,,1
+intubated,,1
+CPAP 5 cm H2O,,1
+High Flow NC ,,1
+2 LTR,,1
+partial non re-breather,,1
+cool aerosol mask ,,1
+other-simple mask,,1
+89,,1
+cool aerosl mask,,1
+hihj flow,,1
+extubated at 0600,,1
+Nasal canula,,1
+65%/25L,,1
+ambu-bag ,,1
+AC 10 700 50 5,,1
+oximisor,,1
+fm,,1
+Ventimask,,1
+trach collar/tpasse muir on,,1
+3 L,,1
+ac 10 400 p5,,1
+BiPAp 20/10,,1
+trah tent,,1
+AC 16 450 100% +5,,1
+AC 10 700 40 5,,1
+Hi Flow 40L,,1
+hiflow90,,1
+hiflow20L,,1
+hiflow 100,,1
+high- flow,,1
+ventilatror,,1
+40L/60%,,1
+RRA,,1
+VENTIMASK,,1
+BiPAP/CPAP 16/6,,1
+BiPAP016/6,,1
+CPAP/bipap,,1
+other- high flow 02,,1
+paced,,1
+other- high flow O2,,1
+bagged at 100,,1
+nasal cannla,,1
+room qir,,1
+40% ac 16 380 peep 8,,1
+Vapopern,,1
+non-rebreather and high flow,,1
+cpap40%/8/5,,1
+PS 12/5/40%,,1
+oximizerr,,1
+0.5,,1
+partial rebrether,,1
+bipap 14/8,,1
+nasal cannula/ambu,,1
+non-rebreather/oximizer,,1
+"AC 16, 450, 40%, +5",,1
+ventilator/AC-26,,1
+"AC16, 360 40%, +5",,1
+"AC12, 360, 30%, +5",,1
+oximizer  / 100% nrb,,1
+"AC16, 360, 3.%, +5",,1
+other Vapotherm 80%,,1
+other Vapotherm 90%,,1
+0.21,,1
+30%TM,,1
+30% TM,,1
+"AC16, 350, 305, +5",,1
+oxymas,,1
+oxymizer 4l,,1
+BiPAP/CPAP15/8,,1
+ nasal canula,,1
+hiflow 40%,,1
+56,,1
+oxymeiser/5 liters,,1
+CPAP 8/5 50%,,1
+high fglow,,1
+HIFL,,1
+ac 12 500 70% +5,,1
+CPAP 30% 10/5,,1
+"AC14, 400, 50%+5",,1
+simv 8/TV 350/+5peep/+14PS,,1
+CPAP@10,,1
+8L,,1
+other T-piece,,1
+CPAP 16,,1
+H-Flow,,1
+2 LPM,,1
+TRAACH COLLAR,,1
+NRBM/humidified,,1
+pulled off,,1
+ac 14 400 100 5,,1
+nasal c96annula,,1
+45% 10 L,,1
+nasal cannula/heliox/mask,,1
+venturi mask/trach stoma,,1
+ventilator/ac-28%,,1
+Hi-flow ,,1
+Hi-flow 30L/40%,,1
+hi/flo,,1
+PS 10/40+5,,1
+8 L,,1
+8 L oxy/ NRB,,1
+AC10/300/40%/5,,1
+ventilator/AC 16/TV 300/Peep+5,,1
+Tm,,1
+BiPAP 20/12,,1
+BiPAP 22/16,,1
+hig flow,,1
+pt had removed o2,,1
+other//trunk mask,,1
+BiPAP//14/7,,1
+HI-Flow,,1
+HI FLOW ,,1
+AC 10/500/40%+5,,1
+AC 16/TV 300/Peep +5 ,,1
+HIflow,,1
+R/A.,,1
+nasal cannulaHF,,1
+partial ,,1
+AC 8 450 40%+5,,1
+"AC14, 385, 50% +5",,1
+trach collar 50%/ 6L NC,,1
+"AC14, 385, 505, +5",,1
+trach collar/NC,,1
+"AC14, 385, 50%,5",,1
+nasal cannula/mv,,1
+ventilator-CPAP,,1
+s face mask,,1
+bipap  20/6,,1
+high flow 25L 60%,,1
+Simple facemask,,1
+par. rebreather,,1
+high flow 25L 80%,,1
+hi flow 80% 20L,,1
+oxymeizxer,,1
+oximeixer,,1
+70 % 40L,,1
+80 % 40L,,1
+par-rebreather,,1
+room ari,,1
+ac 14 400 p5,,1
+"AC12, 500, 50%, +5",,1
+60 %  40 L,,1
+80 %  40 L,,1
+40% 30 L,,1
+40 % 30L,,1
+neb rx,,1
+ac12 500 5,,1
+98%,,1
+Oxymizert,,1
+CPAP 40% +5/+8PS,,1
+roOM AIR,,1
+ Face Mask,,1
+AC14 400 40% +5,,1
+AC10 TV700 100% +5,,1
+ventilator/cv-pap mode,,1
+"AC16, 400, 50% +5",,1
+ac16 400p5,,1
+"AC12, 600, 100%, +5",,1
+ta,,1
+BiPAP12/6,,1
+HIGH FLOW  N/C 50,,1
+BiPAP/CPAP7.5,,1
+BiPAP 12/4,,1
+NFNC,,1
+ac 14 450 p10,,1
+HIHG FLOW,,1
+40%VM,,1
+oxyimisier,,1
+oximysier,,1
+RMAIR,,1
+100% bag,,1
+45L/50%,,1
+hi low,,1
+45L 60 % ,,1
+High-Flow ,,1
+v ented,,1
+HI FLOW AEROSOL,,1
+"AC12, 400, 50% +5",,1
+cpap 11,,1
+CPAP 11,,1
+pressure support 14 cpap,,1
+AC- 20 ,,1
+CPAP/nasal,,1
+48%/ oxymizer,,1
+52%,,1
+64,,1
+HF 28,,1
+Face MASK,,1
+"AC12, 400, 50%, +5",,1
+SimpleMask,,1
+T -piece,,1
+ t- piece,,1
+"other, oximizer",,1
+"other, OXIMIZER",,1
+trach /vent,,1
+BiPAP w/ treatment,,1
+"AC12,400,50%, +5",,1
+1 liter,,1
+BPap,,1
+8 Liter High flow nasal cannula  ,,1
+parital rebreather,,1
+0xymizer,,1
+OXymiser,,1
+trach /  vent,,1
+CPAP 5,,1
+3l nc,,1
+BiPA12/6,,1
+"Vent, CPAP +5,+10",,1
+Room Air-,,1
+BiPAP/CPAP 14/7,,1
+"vent:AC/VC15,330,+5",,1
+Bipap 18/4,,1
+"vent:AC/VC15,400,+5",,1
+HIflow NC,,1
+AC 10/450/40%/+5,,1
+hi-Flow,,1
+HIflowNC,,1
+HIFlow/NRB,,1
+Hiflow/NRB,,1
+BAG VALVE,,1
+Bipap 10L 10/5,,1
+2.5,,1
+/CPAP10,,1
+other- ra,,1
+"AC12, 380",,1
+oximetry,,1
+trache collar 40%,,1
+HF02,,1
+ac16 380p5,,1
+90%,,1
+HF 70%,,1
+trached.,,1
+HIFO2,,1
+HiFO02,,1
+CPAP 6,,1
+Resp RX,,1
+high flow NC ,,1
+other hi-flo 35%,,1
+other hi flow 35%,,1
+Room  air,,1
+ventilator- CPAP,,1
+TRACH/VENT,,1
+other/Hi-flow 35%,,1
+Hi flo 02 35%,,1
+other/hi flo/35%,,1
+Highflow NC,,1
+oxymizer and VM,,1
+nasal cannua,,1
+"nasal cannula, oxymyer",,1
+"nasal cannula, oxymyxer",,1
+"nasal cannula,oxymizer",,1
+"AC-10, TV-350, Peep-+5, Fio2-40%",,1
+oximizer 12 L ,,1
+Ac 14 480 60 12,,1
+AC 10 480 6012,,1
+40%TPIECE,,1
+BiPAP/CPAP 11/5,,1
+40%  TP,,1
+bilevel,,1
+Bipap 12/5 with mod. leak,,1
+cpap 40% 15/5,,1
+ac10 400 p10,,1
+oxymizer 12 liters,,1
+nasal  canula,,1
+TM/50%,,1
+ventilator AC18,,1
+"AC 12, 400, 40%, +5",,1
+oambu to vent ,,1
+CPAP 40 12/5,,1
+CPAP 40% 11/5,,1
+"AC12, 400, 60%, +10",,1
+"AC12, 400, 60% +10",,1
+"AC14, 400, 60%, +5",,1
+oximizer NC,,1
+NC/HF,,1
+HiFlowNC,,1
+other/BVM,,1
